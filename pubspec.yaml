@@ -22,6 +22,24 @@ dev_dependencies:
 flutter:
 
   fonts:
-    - family:  FluentSystemIcons
+    - family:  FluentSystemIconsP1
       fonts:
-        - asset: fonts/FluentSystemIcons.ttf
+        - asset: fonts/FluentSystemIconsP1.ttf
+    - family:  FluentSystemIconsP2
+      fonts:
+        - asset: fonts/FluentSystemIconsP2.ttf
+    - family:  FluentSystemIconsP3
+      fonts:
+        - asset: fonts/FluentSystemIconsP3.ttf
+    - family:  FluentSystemIconsP4
+      fonts:
+        - asset: fonts/FluentSystemIconsP4.ttf
+    - family:  FluentSystemIconsP5
+      fonts:
+        - asset: fonts/FluentSystemIconsP5.ttf
+    - family:  FluentSystemIconsP6
+      fonts:
+        - asset: fonts/FluentSystemIconsP6.ttf
+    - family:  FluentSystemIconsP7
+      fonts:
+        - asset: fonts/FluentSystemIconsP7.ttf

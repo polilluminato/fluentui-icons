@@ -4,7 +4,9 @@ Icon package from Flutter based on [fluentui-system-icons](https://github.com/mi
 
 ## Icon List
 
-All icons that are 24 in size are included in the package, you can search for an icon and find the complete icon list [here](https://github.com/microsoft/fluentui-system-icons/blob/master/icons.md). 
+All icons are included in the package, you can search for an icon and find the complete icon list [here](https://github.com/microsoft/fluentui-system-icons/blob/master/icons.md). 
+
+You don't have to specify the size of the icon but only its name.
 
 
 ## Usage
@@ -12,7 +14,7 @@ To use this plugin, add `fluentui_icons` as a [dependency in your pubspec.yaml f
 
 ``` dart
 dependencies:
-  fluentui_icons: ^0.0.1
+  fluentui_icons: ^0.1.0
 ```
 
 ### Install it 

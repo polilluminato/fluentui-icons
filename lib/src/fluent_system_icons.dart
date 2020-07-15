@@ -15,3431 +15,3435 @@
 ///
 import 'package:flutter/widgets.dart';
 
+///Custom IconData (font weight Regular)
+class FluentUIIconData extends IconData {
+  const FluentUIIconData(int codePoint, String fontFamily)
+      : super(codePoint, fontFamily: fontFamily, fontPackage: 'fluentui_icons');
+}
+
 class FluentSystemIcons {
   FluentSystemIcons._();
-
-  static const _kFontPkg = null;
 
   /*Part 1*/
   static const _kFontFamP1 = 'FluentSystemIconsP1';
   static const IconData ic_fluent_accessibility_filled =
-      IconData(0xe800, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP1);
   static const IconData ic_fluent_accessibility_regular =
-      IconData(0xe801, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP1);
   static const IconData ic_fluent_access_time_filled =
-      IconData(0xe802, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP1);
   static const IconData ic_fluent_access_time_regular =
-      IconData(0xe803, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP1);
   static const IconData ic_fluent_activity_filled =
-      IconData(0xe804, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP1);
   static const IconData ic_fluent_activity_regular =
-      IconData(0xe805, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP1);
   static const IconData ic_fluent_add_circle_filled =
-      IconData(0xe806, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP1);
   static const IconData ic_fluent_add_circle_regular =
-      IconData(0xe807, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP1);
   static const IconData ic_fluent_add_filled =
-      IconData(0xe808, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP1);
   static const IconData ic_fluent_add_regular =
-      IconData(0xe809, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP1);
   static const IconData ic_fluent_airplane_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP1);
   static const IconData ic_fluent_airplane_regular =
-      IconData(0xe80b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP1);
   static const IconData ic_fluent_alert_filled =
-      IconData(0xe80c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP1);
   static const IconData ic_fluent_alert_off_filled =
-      IconData(0xe80d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP1);
   static const IconData ic_fluent_alert_off_regular =
-      IconData(0xe80e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP1);
   static const IconData ic_fluent_alert_on_filled =
-      IconData(0xe80f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP1);
   static const IconData ic_fluent_alert_on_regular =
-      IconData(0xe810, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP1);
   static const IconData ic_fluent_alert_regular =
-      IconData(0xe811, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP1);
   static const IconData ic_fluent_alert_snooze_filled =
-      IconData(0xe812, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP1);
   static const IconData ic_fluent_alert_snooze_regular =
-      IconData(0xe813, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP1);
   static const IconData ic_fluent_alert_urgent_filled =
-      IconData(0xe814, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP1);
   static const IconData ic_fluent_alert_urgent_regular =
-      IconData(0xe815, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP1);
   static const IconData ic_fluent_app_folder_filled =
-      IconData(0xe816, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP1);
   static const IconData ic_fluent_app_folder_regular =
-      IconData(0xe817, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP1);
   static const IconData ic_fluent_app_generic_filled =
-      IconData(0xe818, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP1);
   static const IconData ic_fluent_app_generic_regular =
-      IconData(0xe819, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP1);
   static const IconData ic_fluent_app_recent_filled =
-      IconData(0xe81a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP1);
   static const IconData ic_fluent_app_recent_regular =
-      IconData(0xe81b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP1);
   static const IconData ic_fluent_apps_add_in_filled =
-      IconData(0xe81c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP1);
   static const IconData ic_fluent_apps_add_in_regular =
-      IconData(0xe81d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP1);
   static const IconData ic_fluent_apps_filled =
-      IconData(0xe81e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP1);
   static const IconData ic_fluent_apps_list_filled =
-      IconData(0xe81f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP1);
   static const IconData ic_fluent_apps_list_regular =
-      IconData(0xe820, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP1);
   static const IconData ic_fluent_app_span_filled =
-      IconData(0xe821, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP1);
   static const IconData ic_fluent_app_span_regular =
-      IconData(0xe822, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP1);
   static const IconData ic_fluent_apps_regular =
-      IconData(0xe823, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP1);
   static const IconData ic_fluent_app_store_filled =
-      IconData(0xe824, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP1);
   static const IconData ic_fluent_app_store_regular =
-      IconData(0xe825, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP1);
   static const IconData ic_fluent_app_title_filled =
-      IconData(0xe826, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP1);
   static const IconData ic_fluent_app_title_regular =
-      IconData(0xe827, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP1);
   static const IconData ic_fluent_app_unspan_filled =
-      IconData(0xe828, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP1);
   static const IconData ic_fluent_app_unspan_regular =
-      IconData(0xe829, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP1);
   static const IconData ic_fluent_archive_filled =
-      IconData(0xe82a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP1);
   static const IconData ic_fluent_archive_regular =
-      IconData(0xe82b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP1);
   static const IconData ic_fluent_arrow_clockwise_filled =
-      IconData(0xe82c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP1);
   static const IconData ic_fluent_arrow_clockwise_regular =
-      IconData(0xe82d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP1);
   static const IconData ic_fluent_arrow_counterclockwise_filled =
-      IconData(0xe82e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP1);
   static const IconData ic_fluent_arrow_counterclockwise_regular =
-      IconData(0xe82f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP1);
   static const IconData ic_fluent_arrow_curve_right_filled =
-      IconData(0xe830, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP1);
   static const IconData ic_fluent_arrow_curve_right_regular =
-      IconData(0xe831, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_filled =
-      IconData(0xe832, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_left_filled =
-      IconData(0xe833, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_left_regular =
-      IconData(0xe834, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP1);
   static const IconData ic_fluent_arrow_download_filled =
-      IconData(0xe835, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP1);
   static const IconData ic_fluent_arrow_download_regular =
-      IconData(0xe836, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_regular =
-      IconData(0xe837, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_right_circle_filled =
-      IconData(0xe838, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP1);
   static const IconData ic_fluent_arrow_down_right_circle_regular =
-      IconData(0xe839, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP1);
   static const IconData ic_fluent_arrow_enter_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP1);
   static const IconData ic_fluent_arrow_enter_regular =
-      IconData(0xe83b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP1);
   static const IconData ic_fluent_arrow_expand_filled =
-      IconData(0xe83c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP1);
   static const IconData ic_fluent_arrow_expand_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP1);
   static const IconData ic_fluent_arrow_forward_filled =
-      IconData(0xe83e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP1);
   static const IconData ic_fluent_arrow_forward_regular =
-      IconData(0xe83f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP1);
   static const IconData ic_fluent_arrow_import_filled =
-      IconData(0xe840, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP1);
   static const IconData ic_fluent_arrow_import_regular =
-      IconData(0xe841, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP1);
   static const IconData ic_fluent_arrow_left_filled =
-      IconData(0xe842, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP1);
   static const IconData ic_fluent_arrow_left_regular =
-      IconData(0xe843, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP1);
   static const IconData ic_fluent_arrow_maximize_filled =
-      IconData(0xe844, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP1);
   static const IconData ic_fluent_arrow_maximize_regular =
-      IconData(0xe845, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP1);
   static const IconData ic_fluent_arrow_minimize_filled =
-      IconData(0xe846, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP1);
   static const IconData ic_fluent_arrow_minimize_regular =
-      IconData(0xe847, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP1);
   static const IconData ic_fluent_arrow_next_filled =
-      IconData(0xe848, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP1);
   static const IconData ic_fluent_arrow_next_regular =
-      IconData(0xe849, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP1);
   static const IconData ic_fluent_arrow_previous_filled =
-      IconData(0xe84a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP1);
   static const IconData ic_fluent_arrow_previous_regular =
-      IconData(0xe84b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP1);
   static const IconData ic_fluent_arrow_redo_filled =
-      IconData(0xe84c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP1);
   static const IconData ic_fluent_arrow_redo_regular =
-      IconData(0xe84d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP1);
   static const IconData ic_fluent_arrow_repeat_all_filled =
-      IconData(0xe84e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP1);
   static const IconData ic_fluent_arrow_repeat_all_off_filled =
-      IconData(0xe84f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP1);
   static const IconData ic_fluent_arrow_repeat_all_off_regular =
-      IconData(0xe850, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP1);
   static const IconData ic_fluent_arrow_repeat_all_regular =
-      IconData(0xe851, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP1);
   static const IconData ic_fluent_arrow_reply_all_filled =
-      IconData(0xe852, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP1);
   static const IconData ic_fluent_arrow_reply_all_regular =
-      IconData(0xe853, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP1);
   static const IconData ic_fluent_arrow_reply_filled =
-      IconData(0xe854, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP1);
   static const IconData ic_fluent_arrow_reply_regular =
-      IconData(0xe855, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP1);
   static const IconData ic_fluent_arrow_right_circle_filled =
-      IconData(0xe856, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP1);
   static const IconData ic_fluent_arrow_right_circle_regular =
-      IconData(0xe857, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP1);
   static const IconData ic_fluent_arrow_right_filled =
-      IconData(0xe858, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP1);
   static const IconData ic_fluent_arrow_right_regular =
-      IconData(0xe859, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_clockwise_filled =
-      IconData(0xe85a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_clockwise_regular =
-      IconData(0xe85b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_counterclockwise_filled =
-      IconData(0xe85c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_counterclockwise_regular =
-      IconData(0xe85d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_icon_filled =
-      IconData(0xe85e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP1);
   static const IconData ic_fluent_arrow_rotate_icon_regular =
-      IconData(0xe85f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP1);
   static const IconData ic_fluent_arrows_bidirectional_filled =
-      IconData(0xe860, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP1);
   static const IconData ic_fluent_arrows_bidirectional_regular =
-      IconData(0xe861, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP1);
   static const IconData ic_fluent_arrow_sort_filled =
-      IconData(0xe862, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP1);
   static const IconData ic_fluent_arrow_sort_regular =
-      IconData(0xe863, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP1);
   static const IconData ic_fluent_arrow_swap_filled =
-      IconData(0xe864, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP1);
   static const IconData ic_fluent_arrow_swap_regular =
-      IconData(0xe865, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP1);
   static const IconData ic_fluent_arrow_sync_circle_filled =
-      IconData(0xe866, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP1);
   static const IconData ic_fluent_arrow_sync_circle_regular =
-      IconData(0xe867, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP1);
   static const IconData ic_fluent_arrow_sync_filled =
-      IconData(0xe868, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP1);
   static const IconData ic_fluent_arrow_sync_regular =
-      IconData(0xe869, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP1);
   static const IconData ic_fluent_arrow_trending_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP1);
   static const IconData ic_fluent_arrow_trending_regular =
-      IconData(0xe86b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP1);
   static const IconData ic_fluent_arrow_undo_filled =
-      IconData(0xe86c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP1);
   static const IconData ic_fluent_arrow_undo_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_circle_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_circle_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_filled =
-      IconData(0xe870, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_left_filled =
-      IconData(0xe871, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_left_regular =
-      IconData(0xe872, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_regular =
-      IconData(0xe873, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_right_filled =
-      IconData(0xe874, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP1);
   static const IconData ic_fluent_arrow_up_right_regular =
-      IconData(0xe875, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP1);
   static const IconData ic_fluent_assignments_filled =
-      IconData(0xe876, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP1);
   static const IconData ic_fluent_assignments_regular =
-      IconData(0xe877, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP1);
   static const IconData ic_fluent_attach_filled =
-      IconData(0xe878, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP1);
   static const IconData ic_fluent_attach_regular =
-      IconData(0xe879, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP1);
   static const IconData ic_fluent_attach_with_text_filled =
-      IconData(0xe87a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP1);
   static const IconData ic_fluent_attach_with_text_regular =
-      IconData(0xe87b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP1);
   static const IconData ic_fluent_autocorrect_filled =
-      IconData(0xe87c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP1);
   static const IconData ic_fluent_autocorrect_regular =
-      IconData(0xe87d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP1);
   static const IconData ic_fluent_autosum_filled =
-      IconData(0xe87e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP1);
   static const IconData ic_fluent_autosum_regular =
-      IconData(0xe87f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP1);
   static const IconData ic_fluent_backspace_filled =
-      IconData(0xe880, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP1);
   static const IconData ic_fluent_backspace_regular =
-      IconData(0xe881, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP1);
   static const IconData ic_fluent_backward_filled =
-      IconData(0xe882, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP1);
   static const IconData ic_fluent_backward_regular =
-      IconData(0xe883, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP1);
   static const IconData ic_fluent_badge_filled =
-      IconData(0xe884, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP1);
   static const IconData ic_fluent_badge_regular =
-      IconData(0xe885, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP1);
   static const IconData ic_fluent_bank_filled =
-      IconData(0xe886, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP1);
   static const IconData ic_fluent_bank_regular =
-      IconData(0xe887, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP1);
   static const IconData ic_fluent_battery_0_filled =
-      IconData(0xe888, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP1);
   static const IconData ic_fluent_battery_0_regular =
-      IconData(0xe889, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP1);
   static const IconData ic_fluent_battery_1_filled =
-      IconData(0xe88a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP1);
   static const IconData ic_fluent_battery_1_regular =
-      IconData(0xe88b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP1);
   static const IconData ic_fluent_battery_2_filled =
-      IconData(0xe88c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP1);
   static const IconData ic_fluent_battery_2_regular =
-      IconData(0xe88d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP1);
   static const IconData ic_fluent_battery_3_filled =
-      IconData(0xe88e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP1);
   static const IconData ic_fluent_battery_3_regular =
-      IconData(0xe88f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP1);
   static const IconData ic_fluent_battery_4_filled =
-      IconData(0xe890, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP1);
   static const IconData ic_fluent_battery_4_regular =
-      IconData(0xe891, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP1);
   static const IconData ic_fluent_battery_5_filled =
-      IconData(0xe892, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP1);
   static const IconData ic_fluent_battery_5_regular =
-      IconData(0xe893, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP1);
   static const IconData ic_fluent_battery_6_filled =
-      IconData(0xe894, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP1);
   static const IconData ic_fluent_battery_6_regular =
-      IconData(0xe895, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP1);
   static const IconData ic_fluent_battery_7_filled =
-      IconData(0xe896, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP1);
   static const IconData ic_fluent_battery_7_regular =
-      IconData(0xe897, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP1);
   static const IconData ic_fluent_battery_8_filled =
-      IconData(0xe898, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP1);
   static const IconData ic_fluent_battery_8_regular =
-      IconData(0xe899, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP1);
   static const IconData ic_fluent_battery_9_filled =
-      IconData(0xe89a, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP1);
   static const IconData ic_fluent_battery_9_regular =
-      IconData(0xe89b, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP1);
   static const IconData ic_fluent_battery_charge_filled =
-      IconData(0xe89c, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP1);
   static const IconData ic_fluent_battery_charge_regular =
-      IconData(0xe89d, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP1);
   static const IconData ic_fluent_battery_full_filled =
-      IconData(0xe89e, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP1);
   static const IconData ic_fluent_battery_full_regular =
-      IconData(0xe89f, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP1);
   static const IconData ic_fluent_battery_saver_filled =
-      IconData(0xe8a0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP1);
   static const IconData ic_fluent_battery_saver_regular =
-      IconData(0xe8a1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP1);
   static const IconData ic_fluent_battery_warning_filled =
-      IconData(0xe8a2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP1);
   static const IconData ic_fluent_battery_warning_regular =
-      IconData(0xe8a3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP1);
   static const IconData ic_fluent_beaker_filled =
-      IconData(0xe8a4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP1);
   static const IconData ic_fluent_beaker_regular =
-      IconData(0xe8a5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP1);
   static const IconData ic_fluent_bed_filled =
-      IconData(0xe8a6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP1);
   static const IconData ic_fluent_bed_regular =
-      IconData(0xe8a7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP1);
   static const IconData ic_fluent_block_filled =
-      IconData(0xe8a8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP1);
   static const IconData ic_fluent_block_regular =
-      IconData(0xe8a9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_connected_filled =
-      IconData(0xe8aa, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_connected_regular =
-      IconData(0xe8ab, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_disabled_filled =
-      IconData(0xe8ac, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_disabled_regular =
-      IconData(0xe8ad, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_filled =
-      IconData(0xe8ae, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_regular =
-      IconData(0xe8af, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_searching_filled =
-      IconData(0xe8b0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP1);
   static const IconData ic_fluent_bluetooth_searching_regular =
-      IconData(0xe8b1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP1);
   static const IconData ic_fluent_board_filled =
-      IconData(0xe8b2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP1);
   static const IconData ic_fluent_board_regular =
-      IconData(0xe8b3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP1);
   static const IconData ic_fluent_book_formula_compatibility_filled =
-      IconData(0xe8b4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP1);
   static const IconData ic_fluent_book_formula_compatibility_regular =
-      IconData(0xe8b5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP1);
   static const IconData ic_fluent_book_formula_database_filled =
-      IconData(0xe8b6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP1);
   static const IconData ic_fluent_book_formula_database_regular =
-      IconData(0xe8b7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP1);
   static const IconData ic_fluent_book_formula_date_filled =
-      IconData(0xe8b8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP1);
   static const IconData ic_fluent_book_formula_date_regular =
-      IconData(0xe8b9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP1);
   static const IconData ic_fluent_book_formula_engineering_filled =
-      IconData(0xe8ba, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP1);
   static const IconData ic_fluent_book_formula_engineering_regular =
-      IconData(0xe8bb, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP1);
   static const IconData ic_fluent_book_formula_financial_filled =
-      IconData(0xe8bc, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP1);
   static const IconData ic_fluent_book_formula_financial_regular =
-      IconData(0xe8bd, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP1);
   static const IconData ic_fluent_book_formula_information_filled =
-      IconData(0xe8be, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP1);
   static const IconData ic_fluent_book_formula_information_regular =
-      IconData(0xe8bf, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP1);
   static const IconData ic_fluent_book_formula_logical_filled =
-      IconData(0xe8c0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP1);
   static const IconData ic_fluent_book_formula_logical_regular =
-      IconData(0xe8c1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP1);
   static const IconData ic_fluent_book_formula_lookup_filled =
-      IconData(0xe8c2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP1);
   static const IconData ic_fluent_book_formula_lookup_regular =
-      IconData(0xe8c3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP1);
   static const IconData ic_fluent_book_formula_math_filled =
-      IconData(0xe8c4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP1);
   static const IconData ic_fluent_book_formula_math_regular =
-      IconData(0xe8c5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP1);
   static const IconData ic_fluent_book_formula_recent_filled =
-      IconData(0xe8c6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP1);
   static const IconData ic_fluent_book_formula_recent_regular =
-      IconData(0xe8c7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP1);
   static const IconData ic_fluent_book_formula_statistics_filled =
-      IconData(0xe8c8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP1);
   static const IconData ic_fluent_book_formula_statistics_regular =
-      IconData(0xe8c9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP1);
   static const IconData ic_fluent_book_formula_text_filled =
-      IconData(0xe8ca, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP1);
   static const IconData ic_fluent_book_formula_text_regular =
-      IconData(0xe8cb, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP1);
   static const IconData ic_fluent_bookmark_filled =
-      IconData(0xe8cc, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP1);
   static const IconData ic_fluent_bookmark_off_filled =
-      IconData(0xe8cd, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP1);
   static const IconData ic_fluent_bookmark_off_regular =
-      IconData(0xe8ce, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP1);
   static const IconData ic_fluent_bookmark_regular =
-      IconData(0xe8cf, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP1);
   static const IconData ic_fluent_book_number_filled =
-      IconData(0xe8d0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP1);
   static const IconData ic_fluent_book_number_regular =
-      IconData(0xe8d1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP1);
   static const IconData ic_fluent_bot_add_filled =
-      IconData(0xe8d2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP1);
   static const IconData ic_fluent_bot_add_regular =
-      IconData(0xe8d3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP1);
   static const IconData ic_fluent_bot_filled =
-      IconData(0xe8d4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP1);
   static const IconData ic_fluent_bot_regular =
-      IconData(0xe8d5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP1);
   static const IconData ic_fluent_branch_filled =
-      IconData(0xe8d6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP1);
   static const IconData ic_fluent_branch_regular =
-      IconData(0xe8d7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP1);
   static const IconData ic_fluent_briefcase_filled =
-      IconData(0xe8d8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP1);
   static const IconData ic_fluent_briefcase_regular =
-      IconData(0xe8d9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP1);
   static const IconData ic_fluent_bring_to_front_filled =
-      IconData(0xe8da, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP1);
   static const IconData ic_fluent_bring_to_front_regular =
-      IconData(0xe8db, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP1);
   static const IconData ic_fluent_broad_activity_feed_filled =
-      IconData(0xe8dc, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP1);
   static const IconData ic_fluent_broad_activity_feed_regular =
-      IconData(0xe8dd, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP1);
   static const IconData ic_fluent_bug_report_filled =
-      IconData(0xe8de, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP1);
   static const IconData ic_fluent_bug_report_regular =
-      IconData(0xe8df, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP1);
   static const IconData ic_fluent_building_filled =
-      IconData(0xe8e0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP1);
   static const IconData ic_fluent_building_regular =
-      IconData(0xe8e1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP1);
   static const IconData ic_fluent_calendar_3_day_filled =
-      IconData(0xe8e2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP1);
   static const IconData ic_fluent_calendar_3_day_regular =
-      IconData(0xe8e3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP1);
   static const IconData ic_fluent_calendar_add_filled =
-      IconData(0xe8e4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP1);
   static const IconData ic_fluent_calendar_add_regular =
-      IconData(0xe8e5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP1);
   static const IconData ic_fluent_calendar_agenda_filled =
-      IconData(0xe8e6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP1);
   static const IconData ic_fluent_calendar_agenda_regular =
-      IconData(0xe8e7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP1);
   static const IconData ic_fluent_calendar_availability_filled =
-      IconData(0xe8e8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP1);
   static const IconData ic_fluent_calendar_availability_regular =
-      IconData(0xe8e9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP1);
   static const IconData ic_fluent_calendar_cancel_filled =
-      IconData(0xe8ea, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP1);
   static const IconData ic_fluent_calendar_cancel_regular =
-      IconData(0xe8eb, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP1);
   static const IconData ic_fluent_calendar_date_filled =
-      IconData(0xe8ec, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP1);
   static const IconData ic_fluent_calendar_date_regular =
-      IconData(0xe8ed, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP1);
   static const IconData ic_fluent_calendar_day_filled =
-      IconData(0xe8ee, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP1);
   static const IconData ic_fluent_calendar_day_regular =
-      IconData(0xe8ef, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP1);
   static const IconData ic_fluent_calendar_empty_filled =
-      IconData(0xe8f0, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP1);
   static const IconData ic_fluent_calendar_empty_regular =
-      IconData(0xe8f1, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP1);
   static const IconData ic_fluent_calendar_filled =
-      IconData(0xe8f2, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP1);
   static const IconData ic_fluent_calendar_later_filled =
-      IconData(0xe8f3, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP1);
   static const IconData ic_fluent_calendar_later_regular =
-      IconData(0xe8f4, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP1);
   static const IconData ic_fluent_calendar_month_filled =
-      IconData(0xe8f5, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f5, _kFontFamP1);
   static const IconData ic_fluent_calendar_month_regular =
-      IconData(0xe8f6, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f6, _kFontFamP1);
   static const IconData ic_fluent_calendar_overdue_filled =
-      IconData(0xe8f7, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f7, _kFontFamP1);
   static const IconData ic_fluent_calendar_overdue_regular =
-      IconData(0xe8f8, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f8, _kFontFamP1);
   static const IconData ic_fluent_calendar_recurring_filled =
-      IconData(0xe8f9, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f9, _kFontFamP1);
   static const IconData ic_fluent_calendar_recurring_regular =
-      IconData(0xe8fa, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fa, _kFontFamP1);
   static const IconData ic_fluent_calendar_regular =
-      IconData(0xe8fb, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fb, _kFontFamP1);
   static const IconData ic_fluent_calendar_starred_filled =
-      IconData(0xe8fc, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fc, _kFontFamP1);
   static const IconData ic_fluent_calendar_starred_regular =
-      IconData(0xe8fd, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fd, _kFontFamP1);
   static const IconData ic_fluent_calendar_sync_filled =
-      IconData(0xe8fe, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fe, _kFontFamP1);
   static const IconData ic_fluent_calendar_sync_regular =
-      IconData(0xe8ff, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ff, _kFontFamP1);
   static const IconData ic_fluent_calendar_week_numbers_filled =
-      IconData(0xe900, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe900, _kFontFamP1);
   static const IconData ic_fluent_calendar_week_numbers_regular =
-      IconData(0xe901, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe901, _kFontFamP1);
   static const IconData ic_fluent_calendar_week_start_filled =
-      IconData(0xe902, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe902, _kFontFamP1);
   static const IconData ic_fluent_calendar_week_start_regular =
-      IconData(0xe903, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe903, _kFontFamP1);
   static const IconData ic_fluent_call_add_filled =
-      IconData(0xe904, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe904, _kFontFamP1);
   static const IconData ic_fluent_call_add_regular =
-      IconData(0xe905, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe905, _kFontFamP1);
   static const IconData ic_fluent_call_end_filled =
-      IconData(0xe906, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe906, _kFontFamP1);
   static const IconData ic_fluent_call_end_regular =
-      IconData(0xe907, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe907, _kFontFamP1);
   static const IconData ic_fluent_call_forward_filled =
-      IconData(0xe908, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe908, _kFontFamP1);
   static const IconData ic_fluent_call_forward_regular =
-      IconData(0xe909, fontFamily: _kFontFamP1, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe909, _kFontFamP1);
   /*Part 1*/
 
   /*Part 2*/
   static const _kFontFamP2 = 'FluentSystemIconsP2';
   static const IconData ic_fluent_calligraphy_pen_filled =
-      IconData(0xe800, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP2);
   static const IconData ic_fluent_calligraphy_pen_regular =
-      IconData(0xe801, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP2);
   static const IconData ic_fluent_call_inbound_filled =
-      IconData(0xe802, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP2);
   static const IconData ic_fluent_call_inbound_regular =
-      IconData(0xe803, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP2);
   static const IconData ic_fluent_call_missed_filled =
-      IconData(0xe804, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP2);
   static const IconData ic_fluent_call_missed_regular =
-      IconData(0xe805, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP2);
   static const IconData ic_fluent_call_outbound_filled =
-      IconData(0xe806, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP2);
   static const IconData ic_fluent_call_outbound_regular =
-      IconData(0xe807, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP2);
   static const IconData ic_fluent_call_park_filled =
-      IconData(0xe808, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP2);
   static const IconData ic_fluent_call_park_regular =
-      IconData(0xe809, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP2);
   static const IconData ic_fluent_camera_add_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP2);
   static const IconData ic_fluent_camera_add_regular =
-      IconData(0xe80b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP2);
   static const IconData ic_fluent_camera_filled =
-      IconData(0xe80c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP2);
   static const IconData ic_fluent_camera_regular =
-      IconData(0xe80d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP2);
   static const IconData ic_fluent_camera_switch_filled =
-      IconData(0xe80e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP2);
   static const IconData ic_fluent_camera_switch_regular =
-      IconData(0xe80f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP2);
   static const IconData ic_fluent_cast_filled =
-      IconData(0xe810, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP2);
   static const IconData ic_fluent_cast_regular =
-      IconData(0xe811, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP2);
   static const IconData ic_fluent_cellular_3g_filled =
-      IconData(0xe812, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP2);
   static const IconData ic_fluent_cellular_3g_regular =
-      IconData(0xe813, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP2);
   static const IconData ic_fluent_cellular_4g_filled =
-      IconData(0xe814, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP2);
   static const IconData ic_fluent_cellular_4g_regular =
-      IconData(0xe815, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_1_filled =
-      IconData(0xe816, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_1_regular =
-      IconData(0xe817, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_2_filled =
-      IconData(0xe818, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_2_regular =
-      IconData(0xe819, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_3_filled =
-      IconData(0xe81a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_3_regular =
-      IconData(0xe81b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_4_filled =
-      IconData(0xe81c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_4_regular =
-      IconData(0xe81d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_5_filled =
-      IconData(0xe81e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_5_regular =
-      IconData(0xe81f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_off_filled =
-      IconData(0xe820, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP2);
   static const IconData ic_fluent_cellular_data_off_regular =
-      IconData(0xe821, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP2);
   static const IconData ic_fluent_cellular_off_filled =
-      IconData(0xe822, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP2);
   static const IconData ic_fluent_cellular_off_regular =
-      IconData(0xe823, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP2);
   static const IconData ic_fluent_cellular_unavailable_filled =
-      IconData(0xe824, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP2);
   static const IconData ic_fluent_cellular_unavailable_regular =
-      IconData(0xe825, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP2);
   static const IconData ic_fluent_certificate_filled =
-      IconData(0xe826, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP2);
   static const IconData ic_fluent_certificate_regular =
-      IconData(0xe827, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP2);
   static const IconData ic_fluent_channel_filled =
-      IconData(0xe828, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP2);
   static const IconData ic_fluent_channel_follow_filled =
-      IconData(0xe829, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP2);
   static const IconData ic_fluent_channel_follow_regular =
-      IconData(0xe82a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP2);
   static const IconData ic_fluent_channel_notifications_filled =
-      IconData(0xe82b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP2);
   static const IconData ic_fluent_channel_notifications_regular =
-      IconData(0xe82c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP2);
   static const IconData ic_fluent_channel_regular =
-      IconData(0xe82d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP2);
   static const IconData ic_fluent_channel_unfollow_filled =
-      IconData(0xe82e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP2);
   static const IconData ic_fluent_channel_unfollow_regular =
-      IconData(0xe82f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP2);
   static const IconData ic_fluent_chat_filled =
-      IconData(0xe830, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP2);
   static const IconData ic_fluent_chat_help_filled =
-      IconData(0xe831, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP2);
   static const IconData ic_fluent_chat_help_regular =
-      IconData(0xe832, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP2);
   static const IconData ic_fluent_chat_regular =
-      IconData(0xe833, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP2);
   static const IconData ic_fluent_checkbox_checked_filled =
-      IconData(0xe834, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP2);
   static const IconData ic_fluent_checkbox_checked_regular =
-      IconData(0xe835, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP2);
   static const IconData ic_fluent_checkbox_unchecked_filled =
-      IconData(0xe836, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP2);
   static const IconData ic_fluent_checkbox_unchecked_regular =
-      IconData(0xe837, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP2);
   static const IconData ic_fluent_checkmark_circle_filled =
-      IconData(0xe838, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP2);
   static const IconData ic_fluent_checkmark_circle_regular =
-      IconData(0xe839, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP2);
   static const IconData ic_fluent_checkmark_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP2);
   static const IconData ic_fluent_checkmark_lock_filled =
-      IconData(0xe83b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP2);
   static const IconData ic_fluent_checkmark_lock_regular =
-      IconData(0xe83c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP2);
   static const IconData ic_fluent_checkmark_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP2);
   static const IconData ic_fluent_checkmark_square_filled =
-      IconData(0xe83e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP2);
   static const IconData ic_fluent_checkmark_square_regular =
-      IconData(0xe83f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP2);
   static const IconData ic_fluent_chevron_down_circle_filled =
-      IconData(0xe840, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP2);
   static const IconData ic_fluent_chevron_down_circle_regular =
-      IconData(0xe841, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP2);
   static const IconData ic_fluent_chevron_down_filled =
-      IconData(0xe842, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP2);
   static const IconData ic_fluent_chevron_down_regular =
-      IconData(0xe843, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP2);
   static const IconData ic_fluent_chevron_left_filled =
-      IconData(0xe844, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP2);
   static const IconData ic_fluent_chevron_left_regular =
-      IconData(0xe845, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP2);
   static const IconData ic_fluent_chevron_right_filled =
-      IconData(0xe846, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP2);
   static const IconData ic_fluent_chevron_right_regular =
-      IconData(0xe847, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP2);
   static const IconData ic_fluent_chevron_up_filled =
-      IconData(0xe848, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP2);
   static const IconData ic_fluent_chevron_up_regular =
-      IconData(0xe849, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP2);
   static const IconData ic_fluent_city_filled =
-      IconData(0xe84a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP2);
   static const IconData ic_fluent_city_regular =
-      IconData(0xe84b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP2);
   static const IconData ic_fluent_class_filled =
-      IconData(0xe84c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP2);
   static const IconData ic_fluent_classification_filled =
-      IconData(0xe84d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP2);
   static const IconData ic_fluent_classification_regular =
-      IconData(0xe84e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP2);
   static const IconData ic_fluent_class_regular =
-      IconData(0xe84f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP2);
   static const IconData ic_fluent_clear_formatting_filled =
-      IconData(0xe850, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP2);
   static const IconData ic_fluent_clear_formatting_regular =
-      IconData(0xe851, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP2);
   static const IconData ic_fluent_clipboard_code_filled =
-      IconData(0xe852, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP2);
   static const IconData ic_fluent_clipboard_code_regular =
-      IconData(0xe853, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP2);
   static const IconData ic_fluent_clipboard_filled =
-      IconData(0xe854, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP2);
   static const IconData ic_fluent_clipboard_letter_filled =
-      IconData(0xe855, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP2);
   static const IconData ic_fluent_clipboard_letter_regular =
-      IconData(0xe856, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP2);
   static const IconData ic_fluent_clipboard_link_filled =
-      IconData(0xe857, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP2);
   static const IconData ic_fluent_clipboard_link_regular =
-      IconData(0xe858, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP2);
   static const IconData ic_fluent_clipboard_paste_filled =
-      IconData(0xe859, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP2);
   static const IconData ic_fluent_clipboard_paste_regular =
-      IconData(0xe85a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP2);
   static const IconData ic_fluent_clipboard_regular =
-      IconData(0xe85b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP2);
   static const IconData ic_fluent_clipboard_search_filled =
-      IconData(0xe85c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP2);
   static const IconData ic_fluent_clipboard_search_regular =
-      IconData(0xe85d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP2);
   static const IconData ic_fluent_clipboard_text_filled =
-      IconData(0xe85e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP2);
   static const IconData ic_fluent_clipboard_text_regular =
-      IconData(0xe85f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP2);
   static const IconData ic_fluent_clock_filled =
-      IconData(0xe860, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP2);
   static const IconData ic_fluent_clock_regular =
-      IconData(0xe861, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP2);
   static const IconData ic_fluent_closed_caption_filled =
-      IconData(0xe862, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP2);
   static const IconData ic_fluent_closed_caption_regular =
-      IconData(0xe863, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP2);
   static const IconData ic_fluent_cloud_backup_filled =
-      IconData(0xe864, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP2);
   static const IconData ic_fluent_cloud_backup_regular =
-      IconData(0xe865, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP2);
   static const IconData ic_fluent_cloud_download_filled =
-      IconData(0xe866, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP2);
   static const IconData ic_fluent_cloud_download_regular =
-      IconData(0xe867, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP2);
   static const IconData ic_fluent_cloud_filled =
-      IconData(0xe868, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP2);
   static const IconData ic_fluent_cloud_off_filled =
-      IconData(0xe869, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP2);
   static const IconData ic_fluent_cloud_offline_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP2);
   static const IconData ic_fluent_cloud_offline_regular =
-      IconData(0xe86b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP2);
   static const IconData ic_fluent_cloud_off_regular =
-      IconData(0xe86c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP2);
   static const IconData ic_fluent_cloud_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP2);
   static const IconData ic_fluent_cloud_sync_complete_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP2);
   static const IconData ic_fluent_cloud_sync_complete_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP2);
   static const IconData ic_fluent_code_filled =
-      IconData(0xe870, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP2);
   static const IconData ic_fluent_code_regular =
-      IconData(0xe871, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP2);
   static const IconData ic_fluent_collections_add_filled =
-      IconData(0xe872, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP2);
   static const IconData ic_fluent_collections_add_regular =
-      IconData(0xe873, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP2);
   static const IconData ic_fluent_collections_filled =
-      IconData(0xe874, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP2);
   static const IconData ic_fluent_collections_regular =
-      IconData(0xe875, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP2);
   static const IconData ic_fluent_color_background_filled =
-      IconData(0xe876, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP2);
   static const IconData ic_fluent_color_background_regular =
-      IconData(0xe877, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP2);
   static const IconData ic_fluent_color_filled =
-      IconData(0xe878, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP2);
   static const IconData ic_fluent_color_fill_filled =
-      IconData(0xe879, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP2);
   static const IconData ic_fluent_color_fill_regular =
-      IconData(0xe87a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP2);
   static const IconData ic_fluent_color_line_filled =
-      IconData(0xe87b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP2);
   static const IconData ic_fluent_color_line_regular =
-      IconData(0xe87c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP2);
   static const IconData ic_fluent_color_regular =
-      IconData(0xe87d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP2);
   static const IconData ic_fluent_column_triple_filled =
-      IconData(0xe87e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP2);
   static const IconData ic_fluent_column_triple_regular =
-      IconData(0xe87f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP2);
   static const IconData ic_fluent_comment_add_filled =
-      IconData(0xe880, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP2);
   static const IconData ic_fluent_comment_add_regular =
-      IconData(0xe881, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP2);
   static const IconData ic_fluent_comment_delete_filled =
-      IconData(0xe882, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP2);
   static const IconData ic_fluent_comment_delete_regular =
-      IconData(0xe883, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP2);
   static const IconData ic_fluent_comment_filled =
-      IconData(0xe884, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP2);
   static const IconData ic_fluent_comment_mention_filled =
-      IconData(0xe885, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP2);
   static const IconData ic_fluent_comment_mention_regular =
-      IconData(0xe886, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP2);
   static const IconData ic_fluent_comment_next_filled =
-      IconData(0xe887, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP2);
   static const IconData ic_fluent_comment_next_regular =
-      IconData(0xe888, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP2);
   static const IconData ic_fluent_comment_previous_filled =
-      IconData(0xe889, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP2);
   static const IconData ic_fluent_comment_previous_regular =
-      IconData(0xe88a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP2);
   static const IconData ic_fluent_comment_regular =
-      IconData(0xe88b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP2);
   static const IconData ic_fluent_comment_resolve_filled =
-      IconData(0xe88c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP2);
   static const IconData ic_fluent_comment_resolve_regular =
-      IconData(0xe88d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP2);
   static const IconData ic_fluent_compose_filled =
-      IconData(0xe88e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP2);
   static const IconData ic_fluent_compose_regular =
-      IconData(0xe88f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP2);
   static const IconData ic_fluent_conference_room_filled =
-      IconData(0xe890, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP2);
   static const IconData ic_fluent_conference_room_regular =
-      IconData(0xe891, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP2);
   static const IconData ic_fluent_connector_filled =
-      IconData(0xe892, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP2);
   static const IconData ic_fluent_connector_regular =
-      IconData(0xe893, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP2);
   static const IconData ic_fluent_contact_card_filled =
-      IconData(0xe894, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP2);
   static const IconData ic_fluent_contact_card_group_filled =
-      IconData(0xe895, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP2);
   static const IconData ic_fluent_contact_card_group_regular =
-      IconData(0xe896, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP2);
   static const IconData ic_fluent_contact_card_regular =
-      IconData(0xe897, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP2);
   static const IconData ic_fluent_contacts_filled =
-      IconData(0xe898, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP2);
   static const IconData ic_fluent_contacts_regular =
-      IconData(0xe899, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP2);
   static const IconData ic_fluent_content_settings_filled =
-      IconData(0xe89a, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP2);
   static const IconData ic_fluent_content_settings_regular =
-      IconData(0xe89b, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP2);
   static const IconData ic_fluent_convert_to_table_filled =
-      IconData(0xe89c, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP2);
   static const IconData ic_fluent_convert_to_table_regular =
-      IconData(0xe89d, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP2);
   static const IconData ic_fluent_convert_to_text_filled =
-      IconData(0xe89e, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP2);
   static const IconData ic_fluent_convert_to_text_regular =
-      IconData(0xe89f, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP2);
   static const IconData ic_fluent_cookies_filled =
-      IconData(0xe8a0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP2);
   static const IconData ic_fluent_cookies_regular =
-      IconData(0xe8a1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP2);
   static const IconData ic_fluent_copy_filled =
-      IconData(0xe8a2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP2);
   static const IconData ic_fluent_copy_image_filled =
-      IconData(0xe8a3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP2);
   static const IconData ic_fluent_copy_image_regular =
-      IconData(0xe8a4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP2);
   static const IconData ic_fluent_copy_link_filled =
-      IconData(0xe8a5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP2);
   static const IconData ic_fluent_copy_link_regular =
-      IconData(0xe8a6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP2);
   static const IconData ic_fluent_copy_move_filled =
-      IconData(0xe8a7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP2);
   static const IconData ic_fluent_copy_move_regular =
-      IconData(0xe8a8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP2);
   static const IconData ic_fluent_copy_regular =
-      IconData(0xe8a9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP2);
   static const IconData ic_fluent_crop_filled =
-      IconData(0xe8aa, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP2);
   static const IconData ic_fluent_crop_interim_filled =
-      IconData(0xe8ab, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP2);
   static const IconData ic_fluent_crop_interim_off_filled =
-      IconData(0xe8ac, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP2);
   static const IconData ic_fluent_crop_interim_off_regular =
-      IconData(0xe8ad, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP2);
   static const IconData ic_fluent_crop_interim_regular =
-      IconData(0xe8ae, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP2);
   static const IconData ic_fluent_crop_regular =
-      IconData(0xe8af, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP2);
   static const IconData ic_fluent_cube_filled =
-      IconData(0xe8b0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP2);
   static const IconData ic_fluent_cube_regular =
-      IconData(0xe8b1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP2);
   static const IconData ic_fluent_currency_filled =
-      IconData(0xe8b2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP2);
   static const IconData ic_fluent_currency_regular =
-      IconData(0xe8b3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP2);
   static const IconData ic_fluent_dark_theme_filled =
-      IconData(0xe8b4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP2);
   static const IconData ic_fluent_dark_theme_regular =
-      IconData(0xe8b5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP2);
   static const IconData ic_fluent_data_area_filled =
-      IconData(0xe8b6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP2);
   static const IconData ic_fluent_data_area_regular =
-      IconData(0xe8b7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP2);
   static const IconData ic_fluent_data_bar_horizontal_filled =
-      IconData(0xe8b8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP2);
   static const IconData ic_fluent_data_bar_horizontal_regular =
-      IconData(0xe8b9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP2);
   static const IconData ic_fluent_data_bar_vertical_filled =
-      IconData(0xe8ba, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP2);
   static const IconData ic_fluent_data_bar_vertical_regular =
-      IconData(0xe8bb, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP2);
   static const IconData ic_fluent_data_funnel_filled =
-      IconData(0xe8bc, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP2);
   static const IconData ic_fluent_data_funnel_regular =
-      IconData(0xe8bd, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP2);
   static const IconData ic_fluent_data_histogram_filled =
-      IconData(0xe8be, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP2);
   static const IconData ic_fluent_data_histogram_regular =
-      IconData(0xe8bf, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP2);
   static const IconData ic_fluent_data_line_filled =
-      IconData(0xe8c0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP2);
   static const IconData ic_fluent_data_line_regular =
-      IconData(0xe8c1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP2);
   static const IconData ic_fluent_data_pie_filled =
-      IconData(0xe8c2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP2);
   static const IconData ic_fluent_data_pie_regular =
-      IconData(0xe8c3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP2);
   static const IconData ic_fluent_data_scatter_filled =
-      IconData(0xe8c4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP2);
   static const IconData ic_fluent_data_scatter_regular =
-      IconData(0xe8c5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP2);
   static const IconData ic_fluent_data_sunburst_filled =
-      IconData(0xe8c6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP2);
   static const IconData ic_fluent_data_sunburst_regular =
-      IconData(0xe8c7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP2);
   static const IconData ic_fluent_data_treemap_filled =
-      IconData(0xe8c8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP2);
   static const IconData ic_fluent_data_treemap_regular =
-      IconData(0xe8c9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP2);
   static const IconData ic_fluent_data_usage_filled =
-      IconData(0xe8ca, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP2);
   static const IconData ic_fluent_data_usage_regular =
-      IconData(0xe8cb, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP2);
   static const IconData ic_fluent_data_waterfall_filled =
-      IconData(0xe8cc, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP2);
   static const IconData ic_fluent_data_waterfall_regular =
-      IconData(0xe8cd, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP2);
   static const IconData ic_fluent_data_whisker_filled =
-      IconData(0xe8ce, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP2);
   static const IconData ic_fluent_data_whisker_regular =
-      IconData(0xe8cf, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP2);
   static const IconData ic_fluent_delete_filled =
-      IconData(0xe8d0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP2);
   static const IconData ic_fluent_delete_forever_filled =
-      IconData(0xe8d1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP2);
   static const IconData ic_fluent_delete_forever_regular =
-      IconData(0xe8d2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP2);
   static const IconData ic_fluent_delete_off_filled =
-      IconData(0xe8d3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP2);
   static const IconData ic_fluent_delete_off_regular =
-      IconData(0xe8d4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP2);
   static const IconData ic_fluent_delete_regular =
-      IconData(0xe8d5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP2);
   static const IconData ic_fluent_design_ideas_filled =
-      IconData(0xe8d6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP2);
   static const IconData ic_fluent_design_ideas_regular =
-      IconData(0xe8d7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP2);
   static const IconData ic_fluent_desktop_filled =
-      IconData(0xe8d8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP2);
   static const IconData ic_fluent_desktop_regular =
-      IconData(0xe8d9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP2);
   static const IconData ic_fluent_developer_board_filled =
-      IconData(0xe8da, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP2);
   static const IconData ic_fluent_developer_board_regular =
-      IconData(0xe8db, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP2);
   static const IconData ic_fluent_device_eq_filled =
-      IconData(0xe8dc, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP2);
   static const IconData ic_fluent_device_eq_regular =
-      IconData(0xe8dd, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP2);
   static const IconData ic_fluent_dialpad_filled =
-      IconData(0xe8de, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP2);
   static const IconData ic_fluent_dialpad_off_filled =
-      IconData(0xe8df, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP2);
   static const IconData ic_fluent_dialpad_off_regular =
-      IconData(0xe8e0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP2);
   static const IconData ic_fluent_dialpad_regular =
-      IconData(0xe8e1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP2);
   static const IconData ic_fluent_dictionary_add_filled =
-      IconData(0xe8e2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP2);
   static const IconData ic_fluent_dictionary_add_regular =
-      IconData(0xe8e3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP2);
   static const IconData ic_fluent_dictionary_filled =
-      IconData(0xe8e4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP2);
   static const IconData ic_fluent_dictionary_regular =
-      IconData(0xe8e5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP2);
   static const IconData ic_fluent_directions_filled =
-      IconData(0xe8e6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP2);
   static const IconData ic_fluent_directions_regular =
-      IconData(0xe8e7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP2);
   static const IconData ic_fluent_dismiss_circle_filled =
-      IconData(0xe8e8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP2);
   static const IconData ic_fluent_dismiss_circle_regular =
-      IconData(0xe8e9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP2);
   static const IconData ic_fluent_dismiss_filled =
-      IconData(0xe8ea, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP2);
   static const IconData ic_fluent_dismiss_regular =
-      IconData(0xe8eb, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP2);
   static const IconData ic_fluent_divider_short_filled =
-      IconData(0xe8ec, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP2);
   static const IconData ic_fluent_divider_short_regular =
-      IconData(0xe8ed, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP2);
   static const IconData ic_fluent_divider_tall_filled =
-      IconData(0xe8ee, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP2);
   static const IconData ic_fluent_divider_tall_regular =
-      IconData(0xe8ef, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP2);
   static const IconData ic_fluent_dock_filled =
-      IconData(0xe8f0, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP2);
   static const IconData ic_fluent_dock_left_filled =
-      IconData(0xe8f1, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP2);
   static const IconData ic_fluent_dock_left_regular =
-      IconData(0xe8f2, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP2);
   static const IconData ic_fluent_dock_regular =
-      IconData(0xe8f3, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP2);
   static const IconData ic_fluent_dock_row_filled =
-      IconData(0xe8f4, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP2);
   static const IconData ic_fluent_dock_row_regular =
-      IconData(0xe8f5, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f5, _kFontFamP2);
   static const IconData ic_fluent_document_autosave_filled =
-      IconData(0xe8f6, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f6, _kFontFamP2);
   static const IconData ic_fluent_document_autosave_regular =
-      IconData(0xe8f7, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f7, _kFontFamP2);
   static const IconData ic_fluent_document_briefcase_filled =
-      IconData(0xe8f8, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f8, _kFontFamP2);
   static const IconData ic_fluent_document_briefcase_regular =
-      IconData(0xe8f9, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f9, _kFontFamP2);
   static const IconData ic_fluent_document_catch_up_filled =
-      IconData(0xe8fa, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fa, _kFontFamP2);
   static const IconData ic_fluent_document_catch_up_regular =
-      IconData(0xe8fb, fontFamily: _kFontFamP2, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fb, _kFontFamP2);
   /*Part 2*/
 
   /*Part 3*/
   static const _kFontFamP3 = 'FluentSystemIconsP3';
   static const IconData ic_fluent_document_copy_filled =
-      IconData(0xe800, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP3);
   static const IconData ic_fluent_document_copy_regular =
-      IconData(0xe801, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP3);
   static const IconData ic_fluent_document_dismiss_filled =
-      IconData(0xe802, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP3);
   static const IconData ic_fluent_document_dismiss_regular =
-      IconData(0xe803, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP3);
   static const IconData ic_fluent_document_edit_filled =
-      IconData(0xe804, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP3);
   static const IconData ic_fluent_document_edit_regular =
-      IconData(0xe805, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP3);
   static const IconData ic_fluent_document_endnote_filled =
-      IconData(0xe806, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP3);
   static const IconData ic_fluent_document_endnote_regular =
-      IconData(0xe807, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP3);
   static const IconData ic_fluent_document_error_filled =
-      IconData(0xe808, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP3);
   static const IconData ic_fluent_document_error_regular =
-      IconData(0xe809, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP3);
   static const IconData ic_fluent_document_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP3);
   static const IconData ic_fluent_document_footer_filled =
-      IconData(0xe80b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP3);
   static const IconData ic_fluent_document_footer_regular =
-      IconData(0xe80c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP3);
   static const IconData ic_fluent_document_footer_remove_filled =
-      IconData(0xe80d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP3);
   static const IconData ic_fluent_document_footer_remove_regular =
-      IconData(0xe80e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP3);
   static const IconData ic_fluent_document_header_filled =
-      IconData(0xe80f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP3);
   static const IconData ic_fluent_document_header_footer_filled =
-      IconData(0xe810, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP3);
   static const IconData ic_fluent_document_header_footer_regular =
-      IconData(0xe811, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP3);
   static const IconData ic_fluent_document_header_regular =
-      IconData(0xe812, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP3);
   static const IconData ic_fluent_document_header_remove_filled =
-      IconData(0xe813, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP3);
   static const IconData ic_fluent_document_header_remove_regular =
-      IconData(0xe814, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP3);
   static const IconData ic_fluent_document_landscape_filled =
-      IconData(0xe815, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP3);
   static const IconData ic_fluent_document_landscape_regular =
-      IconData(0xe816, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP3);
   static const IconData ic_fluent_document_margins_filled =
-      IconData(0xe817, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP3);
   static const IconData ic_fluent_document_margins_regular =
-      IconData(0xe818, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP3);
   static const IconData ic_fluent_document_none_filled =
-      IconData(0xe819, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP3);
   static const IconData ic_fluent_document_none_regular =
-      IconData(0xe81a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP3);
   static const IconData ic_fluent_document_one_page_filled =
-      IconData(0xe81b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP3);
   static const IconData ic_fluent_document_one_page_regular =
-      IconData(0xe81c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_center_filled =
-      IconData(0xe81d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_center_regular =
-      IconData(0xe81e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_left_filled =
-      IconData(0xe81f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_left_regular =
-      IconData(0xe820, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_right_filled =
-      IconData(0xe821, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP3);
   static const IconData ic_fluent_document_page_bottom_right_regular =
-      IconData(0xe822, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP3);
   static const IconData ic_fluent_document_page_break_filled =
-      IconData(0xe823, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP3);
   static const IconData ic_fluent_document_page_break_regular =
-      IconData(0xe824, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP3);
   static const IconData ic_fluent_document_page_filled =
-      IconData(0xe825, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP3);
   static const IconData ic_fluent_document_page_number_filled =
-      IconData(0xe826, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP3);
   static const IconData ic_fluent_document_page_number_regular =
-      IconData(0xe827, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_center_filled =
-      IconData(0xe828, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_center_regular =
-      IconData(0xe829, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_left_filled =
-      IconData(0xe82a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_left_regular =
-      IconData(0xe82b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_right_filled =
-      IconData(0xe82c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP3);
   static const IconData ic_fluent_document_page_regular =
-      IconData(0xe82d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP3);
   static const IconData ic_fluent_document_page_top_right_regular =
-      IconData(0xe82e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP3);
   static const IconData ic_fluent_document_pdf_filled =
-      IconData(0xe82f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP3);
   static const IconData ic_fluent_document_pdf_regular =
-      IconData(0xe830, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP3);
   static const IconData ic_fluent_document_regular =
-      IconData(0xe831, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP3);
   static const IconData ic_fluent_document_search_filled =
-      IconData(0xe832, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP3);
   static const IconData ic_fluent_document_search_regular =
-      IconData(0xe833, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP3);
   static const IconData ic_fluent_document_toolbox_filled =
-      IconData(0xe834, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP3);
   static const IconData ic_fluent_document_toolbox_regular =
-      IconData(0xe835, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP3);
   static const IconData ic_fluent_document_unknown_filled =
-      IconData(0xe836, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP3);
   static const IconData ic_fluent_document_unknown_regular =
-      IconData(0xe837, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP3);
   static const IconData ic_fluent_document_width_filled =
-      IconData(0xe838, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP3);
   static const IconData ic_fluent_document_width_regular =
-      IconData(0xe839, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP3);
   static const IconData ic_fluent_double_swipe_down_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP3);
   static const IconData ic_fluent_double_swipe_down_regular =
-      IconData(0xe83b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP3);
   static const IconData ic_fluent_double_swipe_up_filled =
-      IconData(0xe83c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP3);
   static const IconData ic_fluent_double_swipe_up_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP3);
   static const IconData ic_fluent_double_tap_swipe_down_filled =
-      IconData(0xe83e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP3);
   static const IconData ic_fluent_double_tap_swipe_down_regular =
-      IconData(0xe83f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP3);
   static const IconData ic_fluent_double_tap_swipe_up_filled =
-      IconData(0xe840, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP3);
   static const IconData ic_fluent_double_tap_swipe_up_regular =
-      IconData(0xe841, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP3);
   static const IconData ic_fluent_drafts_filled =
-      IconData(0xe842, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP3);
   static const IconData ic_fluent_drafts_regular =
-      IconData(0xe843, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP3);
   static const IconData ic_fluent_drag_filled =
-      IconData(0xe844, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP3);
   static const IconData ic_fluent_drag_regular =
-      IconData(0xe845, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP3);
   static const IconData ic_fluent_drink_filled =
-      IconData(0xe846, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP3);
   static const IconData ic_fluent_drink_regular =
-      IconData(0xe847, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP3);
   static const IconData ic_fluent_drive_mode_filled =
-      IconData(0xe848, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP3);
   static const IconData ic_fluent_drive_mode_regular =
-      IconData(0xe849, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP3);
   static const IconData ic_fluent_duo_add_filled =
-      IconData(0xe84a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP3);
   static const IconData ic_fluent_duo_add_regular =
-      IconData(0xe84b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP3);
   static const IconData ic_fluent_duo_desktop_filled =
-      IconData(0xe84c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP3);
   static const IconData ic_fluent_duo_desktop_regular =
-      IconData(0xe84d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP3);
   static const IconData ic_fluent_duo_error_filled =
-      IconData(0xe84e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP3);
   static const IconData ic_fluent_duo_error_regular =
-      IconData(0xe84f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP3);
   static const IconData ic_fluent_duo_filled =
-      IconData(0xe850, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP3);
   static const IconData ic_fluent_duo_group_filled =
-      IconData(0xe851, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP3);
   static const IconData ic_fluent_duo_group_regular =
-      IconData(0xe852, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP3);
   static const IconData ic_fluent_duo_home_lock_filled =
-      IconData(0xe853, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP3);
   static const IconData ic_fluent_duo_home_lock_regular =
-      IconData(0xe854, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP3);
   static const IconData ic_fluent_duo_link_setup_filled =
-      IconData(0xe855, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP3);
   static const IconData ic_fluent_duo_link_setup_regular =
-      IconData(0xe856, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP3);
   static const IconData ic_fluent_duo_page_header_filled =
-      IconData(0xe857, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP3);
   static const IconData ic_fluent_duo_page_header_regular =
-      IconData(0xe858, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP3);
   static const IconData ic_fluent_duo_pagination_filled =
-      IconData(0xe859, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP3);
   static const IconData ic_fluent_duo_pagination_regular =
-      IconData(0xe85a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP3);
   static const IconData ic_fluent_duo_regular =
-      IconData(0xe85b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP3);
   static const IconData ic_fluent_duo_screen_time_filled =
-      IconData(0xe85c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP3);
   static const IconData ic_fluent_duo_screen_time_regular =
-      IconData(0xe85d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP3);
   static const IconData ic_fluent_duo_status_bar_filled =
-      IconData(0xe85e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP3);
   static const IconData ic_fluent_duo_status_bar_regular =
-      IconData(0xe85f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP3);
   static const IconData ic_fluent_duo_tablet_filled =
-      IconData(0xe860, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP3);
   static const IconData ic_fluent_duo_tablet_regular =
-      IconData(0xe861, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP3);
   static const IconData ic_fluent_duo_to_pc_filled =
-      IconData(0xe862, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP3);
   static const IconData ic_fluent_duo_to_pc_regular =
-      IconData(0xe863, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP3);
   static const IconData ic_fluent_duo_update_filled =
-      IconData(0xe864, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP3);
   static const IconData ic_fluent_duo_update_regular =
-      IconData(0xe865, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP3);
   static const IconData ic_fluent_duo_vertical_scroll_filled =
-      IconData(0xe866, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP3);
   static const IconData ic_fluent_duo_vertical_scroll_regular =
-      IconData(0xe867, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP3);
   static const IconData ic_fluent_duo_vibrate_filled =
-      IconData(0xe868, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP3);
   static const IconData ic_fluent_duo_vibrate_regular =
-      IconData(0xe869, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP3);
   static const IconData ic_fluent_earth_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP3);
   static const IconData ic_fluent_earth_regular =
-      IconData(0xe86b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP3);
   static const IconData ic_fluent_edit_filled =
-      IconData(0xe86c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP3);
   static const IconData ic_fluent_edit_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP3);
   static const IconData ic_fluent_emoji_add_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP3);
   static const IconData ic_fluent_emoji_add_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP3);
   static const IconData ic_fluent_emoji_angry_filled =
-      IconData(0xe870, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP3);
   static const IconData ic_fluent_emoji_angry_regular =
-      IconData(0xe871, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP3);
   static const IconData ic_fluent_emoji_filled =
-      IconData(0xe872, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP3);
   static const IconData ic_fluent_emoji_regular =
-      IconData(0xe873, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP3);
   static const IconData ic_fluent_emoji_sad_filled =
-      IconData(0xe874, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP3);
   static const IconData ic_fluent_emoji_sad_regular =
-      IconData(0xe875, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP3);
   static const IconData ic_fluent_emoji_surprise_filled =
-      IconData(0xe876, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP3);
   static const IconData ic_fluent_emoji_surprise_regular =
-      IconData(0xe877, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP3);
   static const IconData ic_fluent_erase_filled =
-      IconData(0xe878, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP3);
   static const IconData ic_fluent_erase_regular =
-      IconData(0xe879, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP3);
   static const IconData ic_fluent_eraser_tool_filled =
-      IconData(0xe87a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP3);
   static const IconData ic_fluent_eraser_tool_regular =
-      IconData(0xe87b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP3);
   static const IconData ic_fluent_error_circle_filled =
-      IconData(0xe87c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP3);
   static const IconData ic_fluent_error_circle_regular =
-      IconData(0xe87d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP3);
   static const IconData ic_fluent_export_filled =
-      IconData(0xe87e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP3);
   static const IconData ic_fluent_export_regular =
-      IconData(0xe87f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP3);
   static const IconData ic_fluent_extended_dock_filled =
-      IconData(0xe880, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP3);
   static const IconData ic_fluent_extended_dock_regular =
-      IconData(0xe881, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP3);
   static const IconData ic_fluent_extension_filled =
-      IconData(0xe882, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP3);
   static const IconData ic_fluent_extension_regular =
-      IconData(0xe883, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP3);
   static const IconData ic_fluent_eye_hide_filled =
-      IconData(0xe884, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP3);
   static const IconData ic_fluent_eye_hide_regular =
-      IconData(0xe885, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP3);
   static const IconData ic_fluent_eye_show_filled =
-      IconData(0xe886, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP3);
   static const IconData ic_fluent_eye_show_regular =
-      IconData(0xe887, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP3);
   static const IconData ic_fluent_fast_acceleration_filled =
-      IconData(0xe888, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP3);
   static const IconData ic_fluent_fast_acceleration_regular =
-      IconData(0xe889, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP3);
   static const IconData ic_fluent_fast_forward_filled =
-      IconData(0xe88a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP3);
   static const IconData ic_fluent_fast_forward_regular =
-      IconData(0xe88b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP3);
   static const IconData ic_fluent_fast_mode_filled =
-      IconData(0xe88c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP3);
   static const IconData ic_fluent_fast_mode_regular =
-      IconData(0xe88d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP3);
   static const IconData ic_fluent_favorites_filled =
-      IconData(0xe88e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP3);
   static const IconData ic_fluent_favorites_regular =
-      IconData(0xe88f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP3);
   static const IconData ic_fluent_filter_filled =
-      IconData(0xe890, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP3);
   static const IconData ic_fluent_filter_regular =
-      IconData(0xe891, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP3);
   static const IconData ic_fluent_fingerprint_filled =
-      IconData(0xe892, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP3);
   static const IconData ic_fluent_fingerprint_regular =
-      IconData(0xe893, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP3);
   static const IconData ic_fluent_fit_width_filled =
-      IconData(0xe894, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP3);
   static const IconData ic_fluent_fit_width_regular =
-      IconData(0xe895, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP3);
   static const IconData ic_fluent_flag_filled =
-      IconData(0xe896, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP3);
   static const IconData ic_fluent_flag_off_filled =
-      IconData(0xe897, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP3);
   static const IconData ic_fluent_flag_off_regular =
-      IconData(0xe898, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP3);
   static const IconData ic_fluent_flag_pride_filled =
-      IconData(0xe899, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP3);
   static const IconData ic_fluent_flag_regular =
-      IconData(0xe89a, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP3);
   static const IconData ic_fluent_flash_auto_filled =
-      IconData(0xe89b, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP3);
   static const IconData ic_fluent_flash_auto_regular =
-      IconData(0xe89c, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP3);
   static const IconData ic_fluent_flashlight_filled =
-      IconData(0xe89d, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP3);
   static const IconData ic_fluent_flashlight_off_filled =
-      IconData(0xe89e, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP3);
   static const IconData ic_fluent_flashlight_off_regular =
-      IconData(0xe89f, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP3);
   static const IconData ic_fluent_flashlight_regular =
-      IconData(0xe8a0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP3);
   static const IconData ic_fluent_flash_off_filled =
-      IconData(0xe8a1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP3);
   static const IconData ic_fluent_flash_off_regular =
-      IconData(0xe8a2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP3);
   static const IconData ic_fluent_flash_on_filled =
-      IconData(0xe8a3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP3);
   static const IconData ic_fluent_flash_on_regular =
-      IconData(0xe8a4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP3);
   static const IconData ic_fluent_folder_add_filled =
-      IconData(0xe8a5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP3);
   static const IconData ic_fluent_folder_add_regular =
-      IconData(0xe8a6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP3);
   static const IconData ic_fluent_folder_filled =
-      IconData(0xe8a7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP3);
   static const IconData ic_fluent_folder_junk_filled =
-      IconData(0xe8a8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP3);
   static const IconData ic_fluent_folder_junk_regular =
-      IconData(0xe8a9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP3);
   static const IconData ic_fluent_folder_link_filled =
-      IconData(0xe8aa, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP3);
   static const IconData ic_fluent_folder_link_regular =
-      IconData(0xe8ab, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP3);
   static const IconData ic_fluent_folder_move_filled =
-      IconData(0xe8ac, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP3);
   static const IconData ic_fluent_folder_move_regular =
-      IconData(0xe8ad, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP3);
   static const IconData ic_fluent_folder_open_filled =
-      IconData(0xe8ae, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP3);
   static const IconData ic_fluent_folder_open_regular =
-      IconData(0xe8af, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP3);
   static const IconData ic_fluent_folder_public_filled =
-      IconData(0xe8b0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP3);
   static const IconData ic_fluent_folder_public_regular =
-      IconData(0xe8b1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP3);
   static const IconData ic_fluent_folder_regular =
-      IconData(0xe8b2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP3);
   static const IconData ic_fluent_folder_zip_filled =
-      IconData(0xe8b3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP3);
   static const IconData ic_fluent_folder_zip_regular =
-      IconData(0xe8b4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP3);
   static const IconData ic_fluent_font_decrease_filled =
-      IconData(0xe8b5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP3);
   static const IconData ic_fluent_font_decrease_regular =
-      IconData(0xe8b6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP3);
   static const IconData ic_fluent_font_increase_filled =
-      IconData(0xe8b7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP3);
   static const IconData ic_fluent_font_increase_regular =
-      IconData(0xe8b8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP3);
   static const IconData ic_fluent_font_space_tracking_in_filled =
-      IconData(0xe8b9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP3);
   static const IconData ic_fluent_font_space_tracking_in_regular =
-      IconData(0xe8ba, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP3);
   static const IconData ic_fluent_font_space_tracking_out_filled =
-      IconData(0xe8bb, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP3);
   static const IconData ic_fluent_font_space_tracking_out_regular =
-      IconData(0xe8bc, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP3);
   static const IconData ic_fluent_food_filled =
-      IconData(0xe8bd, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP3);
   static const IconData ic_fluent_food_regular =
-      IconData(0xe8be, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP3);
   static const IconData ic_fluent_form_new_filled =
-      IconData(0xe8bf, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP3);
   static const IconData ic_fluent_form_new_regular =
-      IconData(0xe8c0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP3);
   static const IconData ic_fluent_forward_filled =
-      IconData(0xe8c1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP3);
   static const IconData ic_fluent_forward_regular =
-      IconData(0xe8c2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP3);
   static const IconData ic_fluent_fps0_filled =
-      IconData(0xe8c3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP3);
   static const IconData ic_fluent_fps0_regular =
-      IconData(0xe8c4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP3);
   static const IconData ic_fluent_fps_960_filled =
-      IconData(0xe8c5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP3);
   static const IconData ic_fluent_fps_960_regular =
-      IconData(0xe8c6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP3);
   static const IconData ic_fluent_full_screen_zoom_filled =
-      IconData(0xe8c7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP3);
   static const IconData ic_fluent_full_screen_zoom_regular =
-      IconData(0xe8c8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP3);
   static const IconData ic_fluent_games_filled =
-      IconData(0xe8c9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP3);
   static const IconData ic_fluent_games_regular =
-      IconData(0xe8ca, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP3);
   static const IconData ic_fluent_gesture_filled =
-      IconData(0xe8cb, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP3);
   static const IconData ic_fluent_gesture_regular =
-      IconData(0xe8cc, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP3);
   static const IconData ic_fluent_gif_filled =
-      IconData(0xe8cd, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP3);
   static const IconData ic_fluent_gif_regular =
-      IconData(0xe8ce, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP3);
   static const IconData ic_fluent_gift_filled =
-      IconData(0xe8cf, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP3);
   static const IconData ic_fluent_gift_regular =
-      IconData(0xe8d0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP3);
   static const IconData ic_fluent_glance_filled =
-      IconData(0xe8d1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP3);
   static const IconData ic_fluent_glance_regular =
-      IconData(0xe8d2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP3);
   static const IconData ic_fluent_globe_add_filled =
-      IconData(0xe8d3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP3);
   static const IconData ic_fluent_globe_add_regular =
-      IconData(0xe8d4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP3);
   static const IconData ic_fluent_globe_desktop_filled =
-      IconData(0xe8d5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP3);
   static const IconData ic_fluent_globe_desktop_regular =
-      IconData(0xe8d6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP3);
   static const IconData ic_fluent_globe_filled =
-      IconData(0xe8d7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP3);
   static const IconData ic_fluent_globe_location_filled =
-      IconData(0xe8d8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP3);
   static const IconData ic_fluent_globe_location_regular =
-      IconData(0xe8d9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP3);
   static const IconData ic_fluent_globe_regular =
-      IconData(0xe8da, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP3);
   static const IconData ic_fluent_globe_search_filled =
-      IconData(0xe8db, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP3);
   static const IconData ic_fluent_globe_search_regular =
-      IconData(0xe8dc, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP3);
   static const IconData ic_fluent_globe_video_filled =
-      IconData(0xe8dd, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP3);
   static const IconData ic_fluent_globe_video_regular =
-      IconData(0xe8de, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP3);
   static const IconData ic_fluent_grid_filled =
-      IconData(0xe8df, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP3);
   static const IconData ic_fluent_grid_regular =
-      IconData(0xe8e0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP3);
   static const IconData ic_fluent_group_filled =
-      IconData(0xe8e1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP3);
   static const IconData ic_fluent_group_list_filled =
-      IconData(0xe8e2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP3);
   static const IconData ic_fluent_group_list_regular =
-      IconData(0xe8e3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP3);
   static const IconData ic_fluent_group_regular =
-      IconData(0xe8e4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP3);
   static const IconData ic_fluent_guest_filled =
-      IconData(0xe8e5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP3);
   static const IconData ic_fluent_guest_regular =
-      IconData(0xe8e6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP3);
   static const IconData ic_fluent_hand_raise_regular =
-      IconData(0xe8e7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP3);
   static const IconData ic_fluent_handshake_filled =
-      IconData(0xe8e8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP3);
   static const IconData ic_fluent_handshake_regular =
-      IconData(0xe8e9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP3);
   static const IconData ic_fluent_hdr_filled =
-      IconData(0xe8ea, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP3);
   static const IconData ic_fluent_hdr_regular =
-      IconData(0xe8eb, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP3);
   static const IconData ic_fluent_headphones_filled =
-      IconData(0xe8ec, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP3);
   static const IconData ic_fluent_headphones_regular =
-      IconData(0xe8ed, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP3);
   static const IconData ic_fluent_headset_filled =
-      IconData(0xe8ee, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP3);
   static const IconData ic_fluent_headset_regular =
-      IconData(0xe8ef, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP3);
   static const IconData ic_fluent_headset_vr_filled =
-      IconData(0xe8f0, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP3);
   static const IconData ic_fluent_headset_vr_regular =
-      IconData(0xe8f1, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP3);
   static const IconData ic_fluent_heart_filled =
-      IconData(0xe8f2, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP3);
   static const IconData ic_fluent_heart_regular =
-      IconData(0xe8f3, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP3);
   static const IconData ic_fluent_help_circle_filled =
-      IconData(0xe8f4, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP3);
   static const IconData ic_fluent_help_circle_regular =
-      IconData(0xe8f5, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f5, _kFontFamP3);
   static const IconData ic_fluent_highlight_accent_filled =
-      IconData(0xe8f6, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f6, _kFontFamP3);
   static const IconData ic_fluent_highlight_filled =
-      IconData(0xe8f7, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f7, _kFontFamP3);
   static const IconData ic_fluent_highlight_regular =
-      IconData(0xe8f8, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f8, _kFontFamP3);
   static const IconData ic_fluent_history_filled =
-      IconData(0xe8f9, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f9, _kFontFamP3);
   static const IconData ic_fluent_history_regular =
-      IconData(0xe8fa, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fa, _kFontFamP3);
   static const IconData ic_fluent_home_add_filled =
-      IconData(0xe8fb, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fb, _kFontFamP3);
   static const IconData ic_fluent_home_add_regular =
-      IconData(0xe8fc, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fc, _kFontFamP3);
   static const IconData ic_fluent_home_filled =
-      IconData(0xe8fd, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fd, _kFontFamP3);
   static const IconData ic_fluent_home_regular =
-      IconData(0xe8fe, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fe, _kFontFamP3);
   static const IconData ic_fluent_icons_filled =
-      IconData(0xe8ff, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ff, _kFontFamP3);
   static const IconData ic_fluent_icons_regular =
-      IconData(0xe900, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe900, _kFontFamP3);
   static const IconData ic_fluent_image_add_filled =
-      IconData(0xe901, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe901, _kFontFamP3);
   static const IconData ic_fluent_image_add_regular =
-      IconData(0xe902, fontFamily: _kFontFamP3, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe902, _kFontFamP3);
   /*Part 3*/
 
   /*Part 4*/
   static const _kFontFamP4 = 'FluentSystemIconsP4';
   static const IconData ic_fluent_image_alt_text_filled =
-      IconData(0xe800, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP4);
   static const IconData ic_fluent_image_alt_text_regular =
-      IconData(0xe801, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP4);
   static const IconData ic_fluent_image_copy_filled =
-      IconData(0xe802, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP4);
   static const IconData ic_fluent_image_copy_regular =
-      IconData(0xe803, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP4);
   static const IconData ic_fluent_image_edit_filled =
-      IconData(0xe804, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP4);
   static const IconData ic_fluent_image_edit_regular =
-      IconData(0xe805, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP4);
   static const IconData ic_fluent_image_filled =
-      IconData(0xe806, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP4);
   static const IconData ic_fluent_image_library_filled =
-      IconData(0xe807, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP4);
   static const IconData ic_fluent_image_library_regular =
-      IconData(0xe808, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP4);
   static const IconData ic_fluent_image_regular =
-      IconData(0xe809, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP4);
   static const IconData ic_fluent_image_search_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP4);
   static const IconData ic_fluent_image_search_regular =
-      IconData(0xe80b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP4);
   static const IconData ic_fluent_immersive_reader_filled =
-      IconData(0xe80c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP4);
   static const IconData ic_fluent_immersive_reader_regular =
-      IconData(0xe80d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP4);
   static const IconData ic_fluent_important_filled =
-      IconData(0xe80e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP4);
   static const IconData ic_fluent_important_regular =
-      IconData(0xe80f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP4);
   static const IconData ic_fluent_incognito_filled =
-      IconData(0xe810, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP4);
   static const IconData ic_fluent_incognito_regular =
-      IconData(0xe811, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP4);
   static const IconData ic_fluent_info_filled =
-      IconData(0xe812, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP4);
   static const IconData ic_fluent_info_regular =
-      IconData(0xe813, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP4);
   static const IconData ic_fluent_inking_tool_accent_filled =
-      IconData(0xe814, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP4);
   static const IconData ic_fluent_inking_tool_filled =
-      IconData(0xe815, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP4);
   static const IconData ic_fluent_inking_tool_regular =
-      IconData(0xe816, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP4);
   static const IconData ic_fluent_inprivate_account_filled =
-      IconData(0xe817, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP4);
   static const IconData ic_fluent_inprivate_account_regular =
-      IconData(0xe818, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP4);
   static const IconData ic_fluent_inspect_filled =
-      IconData(0xe819, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP4);
   static const IconData ic_fluent_inspect_regular =
-      IconData(0xe81a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP4);
   static const IconData ic_fluent_ios_arrow_left_filled =
-      IconData(0xe81b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP4);
   static const IconData ic_fluent_ios_arrow_left_regular =
-      IconData(0xe81c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP4);
   static const IconData ic_fluent_ios_chevron_filled =
-      IconData(0xe81d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP4);
   static const IconData ic_fluent_ios_chevron_regular =
-      IconData(0xe81e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP4);
   static const IconData ic_fluent_javascript_filled =
-      IconData(0xe81f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP4);
   static const IconData ic_fluent_javascript_regular =
-      IconData(0xe820, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP4);
   static const IconData ic_fluent_keyboard_dock_filled =
-      IconData(0xe821, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP4);
   static const IconData ic_fluent_keyboard_dock_regular =
-      IconData(0xe822, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP4);
   static const IconData ic_fluent_keyboard_filled =
-      IconData(0xe823, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_float_filled =
-      IconData(0xe824, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_float_regular =
-      IconData(0xe825, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_one_handed_left_filled =
-      IconData(0xe826, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_one_handed_left_regular =
-      IconData(0xe827, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_resize_filled =
-      IconData(0xe828, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_resize_regular =
-      IconData(0xe829, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_split_filled =
-      IconData(0xe82a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP4);
   static const IconData ic_fluent_keyboard_layout_split_regular =
-      IconData(0xe82b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP4);
   static const IconData ic_fluent_keyboard_regular =
-      IconData(0xe82c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP4);
   static const IconData ic_fluent_keyboard_shift_filled =
-      IconData(0xe82d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP4);
   static const IconData ic_fluent_keyboard_shift_regular =
-      IconData(0xe82e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP4);
   static const IconData ic_fluent_keyboard_shift_uppercase_filled =
-      IconData(0xe82f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP4);
   static const IconData ic_fluent_keyboard_shift_uppercase_regular =
-      IconData(0xe830, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP4);
   static const IconData ic_fluent_keyboard_tab_filled =
-      IconData(0xe831, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP4);
   static const IconData ic_fluent_keyboard_tab_regular =
-      IconData(0xe832, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP4);
   static const IconData ic_fluent_key_filled =
-      IconData(0xe833, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP4);
   static const IconData ic_fluent_key_regular =
-      IconData(0xe834, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP4);
   static const IconData ic_fluent_laptop_filled =
-      IconData(0xe835, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP4);
   static const IconData ic_fluent_laptop_regular =
-      IconData(0xe836, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP4);
   static const IconData ic_fluent_large_filled =
-      IconData(0xe837, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP4);
   static const IconData ic_fluent_large_regular =
-      IconData(0xe838, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP4);
   static const IconData ic_fluent_lasso_filled =
-      IconData(0xe839, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP4);
   static const IconData ic_fluent_lasso_regular =
-      IconData(0xe83a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP4);
   static const IconData ic_fluent_launcher_settings_filled =
-      IconData(0xe83b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP4);
   static const IconData ic_fluent_launcher_settings_regular =
-      IconData(0xe83c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP4);
   static const IconData ic_fluent_layer_filled =
-      IconData(0xe83d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP4);
   static const IconData ic_fluent_layer_regular =
-      IconData(0xe83e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP4);
   static const IconData ic_fluent_leaf_filled =
-      IconData(0xe83f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP4);
   static const IconData ic_fluent_leaf_regular =
-      IconData(0xe840, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP4);
   static const IconData ic_fluent_leaf_two_filled =
-      IconData(0xe841, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP4);
   static const IconData ic_fluent_leaf_two_regular =
-      IconData(0xe842, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP4);
   static const IconData ic_fluent_library_filled =
-      IconData(0xe843, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP4);
   static const IconData ic_fluent_library_regular =
-      IconData(0xe844, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_circle_filled =
-      IconData(0xe845, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_circle_regular =
-      IconData(0xe846, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_filament_filled =
-      IconData(0xe847, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_filament_regular =
-      IconData(0xe848, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_filled =
-      IconData(0xe849, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP4);
   static const IconData ic_fluent_lightbulb_regular =
-      IconData(0xe84a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP4);
   static const IconData ic_fluent_likert_filled =
-      IconData(0xe84b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP4);
   static const IconData ic_fluent_likert_regular =
-      IconData(0xe84c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP4);
   static const IconData ic_fluent_link_filled =
-      IconData(0xe84d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP4);
   static const IconData ic_fluent_link_regular =
-      IconData(0xe84e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP4);
   static const IconData ic_fluent_link_square_filled =
-      IconData(0xe84f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP4);
   static const IconData ic_fluent_link_square_regular =
-      IconData(0xe850, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP4);
   static const IconData ic_fluent_list_filled =
-      IconData(0xe851, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP4);
   static const IconData ic_fluent_list_regular =
-      IconData(0xe852, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP4);
   static const IconData ic_fluent_live_filled =
-      IconData(0xe853, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP4);
   static const IconData ic_fluent_live_regular =
-      IconData(0xe854, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP4);
   static const IconData ic_fluent_local_language_filled =
-      IconData(0xe855, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP4);
   static const IconData ic_fluent_local_language_regular =
-      IconData(0xe856, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP4);
   static const IconData ic_fluent_location_filled =
-      IconData(0xe857, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP4);
   static const IconData ic_fluent_location_not_found_filled =
-      IconData(0xe858, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP4);
   static const IconData ic_fluent_location_not_found_regular =
-      IconData(0xe859, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP4);
   static const IconData ic_fluent_location_regular =
-      IconData(0xe85a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP4);
   static const IconData ic_fluent_lock_filled =
-      IconData(0xe85b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP4);
   static const IconData ic_fluent_lock_regular =
-      IconData(0xe85c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP4);
   static const IconData ic_fluent_lock_shield_filled =
-      IconData(0xe85d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP4);
   static const IconData ic_fluent_lock_shield_regular =
-      IconData(0xe85e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP4);
   static const IconData ic_fluent_magic_wand_filled =
-      IconData(0xe85f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP4);
   static const IconData ic_fluent_magic_wand_regular =
-      IconData(0xe860, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP4);
   static const IconData ic_fluent_mail_add_filled =
-      IconData(0xe861, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP4);
   static const IconData ic_fluent_mail_add_regular =
-      IconData(0xe862, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP4);
   static const IconData ic_fluent_mail_all_accounts_filled =
-      IconData(0xe863, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP4);
   static const IconData ic_fluent_mail_all_accounts_regular =
-      IconData(0xe864, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP4);
   static const IconData ic_fluent_mail_all_filled =
-      IconData(0xe865, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP4);
   static const IconData ic_fluent_mail_all_regular =
-      IconData(0xe866, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP4);
   static const IconData ic_fluent_mail_copy_filled =
-      IconData(0xe867, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP4);
   static const IconData ic_fluent_mail_copy_regular =
-      IconData(0xe868, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP4);
   static const IconData ic_fluent_mail_filled =
-      IconData(0xe869, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP4);
   static const IconData ic_fluent_mail_inbox_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP4);
   static const IconData ic_fluent_mail_inbox_regular =
-      IconData(0xe86b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP4);
   static const IconData ic_fluent_mail_move_to_focussed_filled =
-      IconData(0xe86c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP4);
   static const IconData ic_fluent_mail_move_to_focussed_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP4);
   static const IconData ic_fluent_mail_outbox_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP4);
   static const IconData ic_fluent_mail_outbox_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP4);
   static const IconData ic_fluent_mail_read_filled =
-      IconData(0xe870, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP4);
   static const IconData ic_fluent_mail_read_regular =
-      IconData(0xe871, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP4);
   static const IconData ic_fluent_mail_regular =
-      IconData(0xe872, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP4);
   static const IconData ic_fluent_mail_unread_filled =
-      IconData(0xe873, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP4);
   static const IconData ic_fluent_mail_unread_regular =
-      IconData(0xe874, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP4);
   static const IconData ic_fluent_mail_unsubscribe_filled =
-      IconData(0xe875, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP4);
   static const IconData ic_fluent_mail_unsubscribe_regular =
-      IconData(0xe876, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP4);
   static const IconData ic_fluent_malware_detected_filled =
-      IconData(0xe877, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP4);
   static const IconData ic_fluent_malware_detected_regular =
-      IconData(0xe878, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP4);
   static const IconData ic_fluent_manufacturer_filled =
-      IconData(0xe879, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP4);
   static const IconData ic_fluent_manufacturer_regular =
-      IconData(0xe87a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP4);
   static const IconData ic_fluent_map_drive_filled =
-      IconData(0xe87b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP4);
   static const IconData ic_fluent_map_drive_regular =
-      IconData(0xe87c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP4);
   static const IconData ic_fluent_map_filled =
-      IconData(0xe87d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP4);
   static const IconData ic_fluent_map_regular =
-      IconData(0xe87e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP4);
   static const IconData ic_fluent_mark_read_filled =
-      IconData(0xe87f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP4);
   static const IconData ic_fluent_mark_read_regular =
-      IconData(0xe880, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP4);
   static const IconData ic_fluent_mark_unread_filled =
-      IconData(0xe881, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP4);
   static const IconData ic_fluent_mark_unread_regular =
-      IconData(0xe882, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP4);
   static const IconData ic_fluent_match_app_layout_filled =
-      IconData(0xe883, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP4);
   static const IconData ic_fluent_match_app_layout_regular =
-      IconData(0xe884, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP4);
   static const IconData ic_fluent_meet_now_filled =
-      IconData(0xe885, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP4);
   static const IconData ic_fluent_meet_now_regular =
-      IconData(0xe886, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP4);
   static const IconData ic_fluent_megaphone_filled =
-      IconData(0xe887, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP4);
   static const IconData ic_fluent_megaphone_off_filled =
-      IconData(0xe888, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP4);
   static const IconData ic_fluent_megaphone_off_regular =
-      IconData(0xe889, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP4);
   static const IconData ic_fluent_megaphone_regular =
-      IconData(0xe88a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP4);
   static const IconData ic_fluent_mention_filled =
-      IconData(0xe88b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP4);
   static const IconData ic_fluent_mention_regular =
-      IconData(0xe88c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP4);
   static const IconData ic_fluent_mic_off_filled =
-      IconData(0xe88d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP4);
   static const IconData ic_fluent_mic_off_regular =
-      IconData(0xe88e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP4);
   static const IconData ic_fluent_mic_on_filled =
-      IconData(0xe88f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP4);
   static const IconData ic_fluent_mic_on_regular =
-      IconData(0xe890, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP4);
   static const IconData ic_fluent_mic_settings_filled =
-      IconData(0xe891, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP4);
   static const IconData ic_fluent_mic_settings_regular =
-      IconData(0xe892, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP4);
   static const IconData ic_fluent_midi_filled =
-      IconData(0xe893, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP4);
   static const IconData ic_fluent_midi_regular =
-      IconData(0xe894, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP4);
   static const IconData ic_fluent_missing_metadata_filled =
-      IconData(0xe895, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP4);
   static const IconData ic_fluent_missing_metadata_regular =
-      IconData(0xe896, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP4);
   static const IconData ic_fluent_mobile_optimized_filled =
-      IconData(0xe897, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP4);
   static const IconData ic_fluent_mobile_optimized_regular =
-      IconData(0xe898, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP4);
   static const IconData ic_fluent_more_filled =
-      IconData(0xe899, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP4);
   static const IconData ic_fluent_more_regular =
-      IconData(0xe89a, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP4);
   static const IconData ic_fluent_more_vertical_filled =
-      IconData(0xe89b, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP4);
   static const IconData ic_fluent_more_vertical_regular =
-      IconData(0xe89c, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP4);
   static const IconData ic_fluent_movies_and_tv_filled =
-      IconData(0xe89d, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP4);
   static const IconData ic_fluent_movies_and_tv_regular =
-      IconData(0xe89e, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP4);
   static const IconData ic_fluent_multiselect_filled =
-      IconData(0xe89f, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP4);
   static const IconData ic_fluent_multiselect_regular =
-      IconData(0xe8a0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP4);
   static const IconData ic_fluent_music_filled =
-      IconData(0xe8a1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP4);
   static const IconData ic_fluent_music_regular =
-      IconData(0xe8a2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP4);
   static const IconData ic_fluent_my_location_filled =
-      IconData(0xe8a3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP4);
   static const IconData ic_fluent_my_location_regular =
-      IconData(0xe8a4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP4);
   static const IconData ic_fluent_navigation_filled =
-      IconData(0xe8a5, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP4);
   static const IconData ic_fluent_navigation_regular =
-      IconData(0xe8a6, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP4);
   static const IconData ic_fluent_network_check_filled =
-      IconData(0xe8a7, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP4);
   static const IconData ic_fluent_network_check_regular =
-      IconData(0xe8a8, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP4);
   static const IconData ic_fluent_new_filled =
-      IconData(0xe8a9, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP4);
   static const IconData ic_fluent_new_regular =
-      IconData(0xe8aa, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP4);
   static const IconData ic_fluent_news_filled =
-      IconData(0xe8ab, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP4);
   static const IconData ic_fluent_news_regular =
-      IconData(0xe8ac, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP4);
   static const IconData ic_fluent_next_filled =
-      IconData(0xe8ad, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP4);
   static const IconData ic_fluent_next_regular =
-      IconData(0xe8ae, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP4);
   static const IconData ic_fluent_none_filled =
-      IconData(0xe8af, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP4);
   static const IconData ic_fluent_none_regular =
-      IconData(0xe8b0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP4);
   static const IconData ic_fluent_note_add_filled =
-      IconData(0xe8b1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP4);
   static const IconData ic_fluent_note_add_regular =
-      IconData(0xe8b2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP4);
   static const IconData ic_fluent_notebook_error_filled =
-      IconData(0xe8b3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP4);
   static const IconData ic_fluent_notebook_error_regular =
-      IconData(0xe8b4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP4);
   static const IconData ic_fluent_notebook_filled =
-      IconData(0xe8b5, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP4);
   static const IconData ic_fluent_notebook_lightning_filled =
-      IconData(0xe8b6, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP4);
   static const IconData ic_fluent_notebook_lightning_regular =
-      IconData(0xe8b7, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP4);
   static const IconData ic_fluent_notebook_question_mark_filled =
-      IconData(0xe8b8, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP4);
   static const IconData ic_fluent_notebook_question_mark_regular =
-      IconData(0xe8b9, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP4);
   static const IconData ic_fluent_notebook_regular =
-      IconData(0xe8ba, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP4);
   static const IconData ic_fluent_notebook_section_filled =
-      IconData(0xe8bb, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP4);
   static const IconData ic_fluent_notebook_section_regular =
-      IconData(0xe8bc, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP4);
   static const IconData ic_fluent_notebook_sync_filled =
-      IconData(0xe8bd, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP4);
   static const IconData ic_fluent_notebook_sync_regular =
-      IconData(0xe8be, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP4);
   static const IconData ic_fluent_note_filled =
-      IconData(0xe8bf, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP4);
   static const IconData ic_fluent_notepad_filled =
-      IconData(0xe8c0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP4);
   static const IconData ic_fluent_notepad_regular =
-      IconData(0xe8c1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP4);
   static const IconData ic_fluent_note_regular =
-      IconData(0xe8c2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP4);
   static const IconData ic_fluent_number_row_filled =
-      IconData(0xe8c3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP4);
   static const IconData ic_fluent_number_row_regular =
-      IconData(0xe8c4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP4);
   static const IconData ic_fluent_number_symbol_filled =
-      IconData(0xe8c5, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP4);
   static const IconData ic_fluent_number_symbol_regular =
-      IconData(0xe8c6, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP4);
   static const IconData ic_fluent_office_apps_filled =
-      IconData(0xe8c7, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP4);
   static const IconData ic_fluent_office_apps_regular =
-      IconData(0xe8c8, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP4);
   static const IconData ic_fluent_open_filled =
-      IconData(0xe8c9, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP4);
   static const IconData ic_fluent_open_folder_filled =
-      IconData(0xe8ca, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP4);
   static const IconData ic_fluent_open_folder_regular =
-      IconData(0xe8cb, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP4);
   static const IconData ic_fluent_open_in_browser_filled =
-      IconData(0xe8cc, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP4);
   static const IconData ic_fluent_open_in_browser_regular =
-      IconData(0xe8cd, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP4);
   static const IconData ic_fluent_open_regular =
-      IconData(0xe8ce, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP4);
   static const IconData ic_fluent_organization_chart_filled =
-      IconData(0xe8cf, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP4);
   static const IconData ic_fluent_organization_chart_regular =
-      IconData(0xe8d0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP4);
   static const IconData ic_fluent_owner_filled =
-      IconData(0xe8d1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP4);
   static const IconData ic_fluent_owner_regular =
-      IconData(0xe8d2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP4);
   static const IconData ic_fluent_page_fit_filled =
-      IconData(0xe8d3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP4);
   static const IconData ic_fluent_page_fit_regular =
-      IconData(0xe8d4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP4);
   static const IconData ic_fluent_paint_brush_filled =
-      IconData(0xe8d5, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP4);
   static const IconData ic_fluent_paint_brush_regular =
-      IconData(0xe8d6, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP4);
   static const IconData ic_fluent_paint_bucket_filled =
-      IconData(0xe8d7, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP4);
   static const IconData ic_fluent_paint_bucket_regular =
-      IconData(0xe8d8, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP4);
   static const IconData ic_fluent_pair_filled =
-      IconData(0xe8d9, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP4);
   static const IconData ic_fluent_pair_regular =
-      IconData(0xe8da, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP4);
   static const IconData ic_fluent_pane_close_filled =
-      IconData(0xe8db, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP4);
   static const IconData ic_fluent_pane_close_regular =
-      IconData(0xe8dc, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP4);
   static const IconData ic_fluent_pane_open_filled =
-      IconData(0xe8dd, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP4);
   static const IconData ic_fluent_pane_open_regular =
-      IconData(0xe8de, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP4);
   static const IconData ic_fluent_patient_filled =
-      IconData(0xe8df, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP4);
   static const IconData ic_fluent_patient_regular =
-      IconData(0xe8e0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP4);
   static const IconData ic_fluent_pause_filled =
-      IconData(0xe8e1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP4);
   static const IconData ic_fluent_pause_regular =
-      IconData(0xe8e2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP4);
   static const IconData ic_fluent_payment_filled =
-      IconData(0xe8e3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP4);
   static const IconData ic_fluent_payment_regular =
-      IconData(0xe8e4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP4);
   static const IconData ic_fluent_pen_settings_filled =
-      IconData(0xe8e5, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP4);
   static const IconData ic_fluent_pen_settings_regular =
-      IconData(0xe8e6, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP4);
   static const IconData ic_fluent_people_add_filled =
-      IconData(0xe8e7, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP4);
   static const IconData ic_fluent_people_add_regular =
-      IconData(0xe8e8, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP4);
   static const IconData ic_fluent_people_community_add_filled =
-      IconData(0xe8e9, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP4);
   static const IconData ic_fluent_people_community_add_regular =
-      IconData(0xe8ea, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP4);
   static const IconData ic_fluent_people_community_filled =
-      IconData(0xe8eb, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP4);
   static const IconData ic_fluent_people_community_regular =
-      IconData(0xe8ec, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP4);
   static const IconData ic_fluent_people_filled =
-      IconData(0xe8ed, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP4);
   static const IconData ic_fluent_people_regular =
-      IconData(0xe8ee, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP4);
   static const IconData ic_fluent_people_search_filled =
-      IconData(0xe8ef, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP4);
   static const IconData ic_fluent_people_search_regular =
-      IconData(0xe8f0, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP4);
   static const IconData ic_fluent_people_team_filled =
-      IconData(0xe8f1, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP4);
   static const IconData ic_fluent_people_team_regular =
-      IconData(0xe8f2, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP4);
   static const IconData ic_fluent_person_accounts_filled =
-      IconData(0xe8f3, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP4);
   static const IconData ic_fluent_person_accounts_regular =
-      IconData(0xe8f4, fontFamily: _kFontFamP4, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP4);
   /*Part 4*/
 
   /*Part 5*/
   static const _kFontFamP5 = 'FluentSystemIconsP5';
   static const IconData ic_fluent_person_add_filled =
-      IconData(0xe800, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP5);
   static const IconData ic_fluent_person_add_regular =
-      IconData(0xe801, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP5);
   static const IconData ic_fluent_person_arrow_right_filled =
-      IconData(0xe802, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP5);
   static const IconData ic_fluent_person_arrow_right_regular =
-      IconData(0xe803, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP5);
   static const IconData ic_fluent_person_available_filled =
-      IconData(0xe804, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP5);
   static const IconData ic_fluent_person_available_regular =
-      IconData(0xe805, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP5);
   static const IconData ic_fluent_person_block_filled =
-      IconData(0xe806, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP5);
   static const IconData ic_fluent_person_block_regular =
-      IconData(0xe807, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP5);
   static const IconData ic_fluent_person_board_filled =
-      IconData(0xe808, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP5);
   static const IconData ic_fluent_person_board_regular =
-      IconData(0xe809, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP5);
   static const IconData ic_fluent_person_delete_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP5);
   static const IconData ic_fluent_person_delete_regular =
-      IconData(0xe80b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP5);
   static const IconData ic_fluent_person_feedback_filled =
-      IconData(0xe80c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP5);
   static const IconData ic_fluent_person_feedback_regular =
-      IconData(0xe80d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP5);
   static const IconData ic_fluent_person_filled =
-      IconData(0xe80e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP5);
   static const IconData ic_fluent_person_leave_filled =
-      IconData(0xe80f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP5);
   static const IconData ic_fluent_person_leave_regular =
-      IconData(0xe810, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP5);
   static const IconData ic_fluent_person_regular =
-      IconData(0xe811, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP5);
   static const IconData ic_fluent_person_support_filled =
-      IconData(0xe812, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP5);
   static const IconData ic_fluent_person_support_regular =
-      IconData(0xe813, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP5);
   static const IconData ic_fluent_person_swap_filled =
-      IconData(0xe814, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP5);
   static const IconData ic_fluent_person_swap_regular =
-      IconData(0xe815, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP5);
   static const IconData ic_fluent_person_tentative_filled =
-      IconData(0xe816, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP5);
   static const IconData ic_fluent_person_tentative_regular =
-      IconData(0xe817, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP5);
   static const IconData ic_fluent_person_voice_filled =
-      IconData(0xe818, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP5);
   static const IconData ic_fluent_person_voice_regular =
-      IconData(0xe819, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP5);
   static const IconData ic_fluent_phone_add_new_app_filled =
-      IconData(0xe81a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP5);
   static const IconData ic_fluent_phone_add_new_app_regular =
-      IconData(0xe81b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP5);
   static const IconData ic_fluent_phone_desktop_filled =
-      IconData(0xe81c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP5);
   static const IconData ic_fluent_phone_desktop_regular =
-      IconData(0xe81d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP5);
   static const IconData ic_fluent_phone_error_filled =
-      IconData(0xe81e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP5);
   static const IconData ic_fluent_phone_error_regular =
-      IconData(0xe81f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP5);
   static const IconData ic_fluent_phone_filled =
-      IconData(0xe820, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP5);
   static const IconData ic_fluent_phone_home_lock_filled =
-      IconData(0xe821, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP5);
   static const IconData ic_fluent_phone_home_lock_regular =
-      IconData(0xe822, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP5);
   static const IconData ic_fluent_phone_laptop_filled =
-      IconData(0xe823, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP5);
   static const IconData ic_fluent_phone_laptop_regular =
-      IconData(0xe824, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP5);
   static const IconData ic_fluent_phone_link_setup_filled =
-      IconData(0xe825, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP5);
   static const IconData ic_fluent_phone_link_setup_regular =
-      IconData(0xe826, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP5);
   static const IconData ic_fluent_phone_mobile_filled =
-      IconData(0xe827, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP5);
   static const IconData ic_fluent_phone_mobile_regular =
-      IconData(0xe828, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP5);
   static const IconData ic_fluent_phone_page_header_filled =
-      IconData(0xe829, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP5);
   static const IconData ic_fluent_phone_page_header_regular =
-      IconData(0xe82a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP5);
   static const IconData ic_fluent_phone_pagination_filled =
-      IconData(0xe82b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP5);
   static const IconData ic_fluent_phone_pagination_regular =
-      IconData(0xe82c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP5);
   static const IconData ic_fluent_phone_regular =
-      IconData(0xe82d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP5);
   static const IconData ic_fluent_phone_screen_time_filled =
-      IconData(0xe82e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP5);
   static const IconData ic_fluent_phone_screen_time_regular =
-      IconData(0xe82f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP5);
   static const IconData ic_fluent_phone_shake_filled =
-      IconData(0xe830, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP5);
   static const IconData ic_fluent_phone_shake_regular =
-      IconData(0xe831, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP5);
   static const IconData ic_fluent_phone_status_bar_filled =
-      IconData(0xe832, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP5);
   static const IconData ic_fluent_phone_status_bar_regular =
-      IconData(0xe833, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP5);
   static const IconData ic_fluent_phone_tablet_filled =
-      IconData(0xe834, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP5);
   static const IconData ic_fluent_phone_tablet_regular =
-      IconData(0xe835, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP5);
   static const IconData ic_fluent_phone_to_pc_filled =
-      IconData(0xe836, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP5);
   static const IconData ic_fluent_phone_to_pc_regular =
-      IconData(0xe837, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP5);
   static const IconData ic_fluent_phone_update_filled =
-      IconData(0xe838, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP5);
   static const IconData ic_fluent_phone_update_regular =
-      IconData(0xe839, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP5);
   static const IconData ic_fluent_phone_vertical_scroll_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP5);
   static const IconData ic_fluent_phone_vertical_scroll_regular =
-      IconData(0xe83b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP5);
   static const IconData ic_fluent_phone_vibrate_filled =
-      IconData(0xe83c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP5);
   static const IconData ic_fluent_phone_vibrate_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP5);
   static const IconData ic_fluent_photo_filter_filled =
-      IconData(0xe83e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP5);
   static const IconData ic_fluent_photo_filter_regular =
-      IconData(0xe83f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP5);
   static const IconData ic_fluent_picture_in_picture_filled =
-      IconData(0xe840, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP5);
   static const IconData ic_fluent_picture_in_picture_regular =
-      IconData(0xe841, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP5);
   static const IconData ic_fluent_pin_filled =
-      IconData(0xe842, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP5);
   static const IconData ic_fluent_pin_off_filled =
-      IconData(0xe843, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP5);
   static const IconData ic_fluent_pin_off_regular =
-      IconData(0xe844, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP5);
   static const IconData ic_fluent_pin_regular =
-      IconData(0xe845, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP5);
   static const IconData ic_fluent_play_circle_filled =
-      IconData(0xe846, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP5);
   static const IconData ic_fluent_play_circle_regular =
-      IconData(0xe847, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP5);
   static const IconData ic_fluent_play_filled =
-      IconData(0xe848, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP5);
   static const IconData ic_fluent_play_regular =
-      IconData(0xe849, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP5);
   static const IconData ic_fluent_plug_disconnected_filled =
-      IconData(0xe84a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP5);
   static const IconData ic_fluent_plug_disconnected_regular =
-      IconData(0xe84b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP5);
   static const IconData ic_fluent_point_scan_filled =
-      IconData(0xe84c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP5);
   static const IconData ic_fluent_point_scan_regular =
-      IconData(0xe84d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP5);
   static const IconData ic_fluent_poll_filled =
-      IconData(0xe84e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP5);
   static const IconData ic_fluent_poll_regular =
-      IconData(0xe84f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP5);
   static const IconData ic_fluent_power_filled =
-      IconData(0xe850, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP5);
   static const IconData ic_fluent_power_regular =
-      IconData(0xe851, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP5);
   static const IconData ic_fluent_predictions_filled =
-      IconData(0xe852, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP5);
   static const IconData ic_fluent_predictions_regular =
-      IconData(0xe853, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP5);
   static const IconData ic_fluent_premium_filled =
-      IconData(0xe854, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP5);
   static const IconData ic_fluent_premium_regular =
-      IconData(0xe855, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP5);
   static const IconData ic_fluent_presenter_filled =
-      IconData(0xe856, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP5);
   static const IconData ic_fluent_presenter_regular =
-      IconData(0xe857, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP5);
   static const IconData ic_fluent_preview_link_filled =
-      IconData(0xe858, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP5);
   static const IconData ic_fluent_preview_link_regular =
-      IconData(0xe859, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP5);
   static const IconData ic_fluent_previous_filled =
-      IconData(0xe85a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP5);
   static const IconData ic_fluent_previous_regular =
-      IconData(0xe85b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP5);
   static const IconData ic_fluent_print_filled =
-      IconData(0xe85c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP5);
   static const IconData ic_fluent_print_regular =
-      IconData(0xe85d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP5);
   static const IconData ic_fluent_proofread_language_filled =
-      IconData(0xe85e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP5);
   static const IconData ic_fluent_proofread_language_regular =
-      IconData(0xe85f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP5);
   static const IconData ic_fluent_protocol_handler_filled =
-      IconData(0xe860, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP5);
   static const IconData ic_fluent_protocol_handler_regular =
-      IconData(0xe861, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP5);
   static const IconData ic_fluent_pstn_call_filled =
-      IconData(0xe862, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP5);
   static const IconData ic_fluent_pstn_call_regular =
-      IconData(0xe863, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP5);
   static const IconData ic_fluent_qr_code_filled =
-      IconData(0xe864, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP5);
   static const IconData ic_fluent_qr_code_regular =
-      IconData(0xe865, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP5);
   static const IconData ic_fluent_quiz_new_filled =
-      IconData(0xe866, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP5);
   static const IconData ic_fluent_quiz_new_regular =
-      IconData(0xe867, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP5);
   static const IconData ic_fluent_radio_button_filled =
-      IconData(0xe868, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP5);
   static const IconData ic_fluent_radio_button_regular =
-      IconData(0xe869, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP5);
   static const IconData ic_fluent_read_aloud_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP5);
   static const IconData ic_fluent_read_aloud_regular =
-      IconData(0xe86b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP5);
   static const IconData ic_fluent_reading_list_add_filled =
-      IconData(0xe86c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP5);
   static const IconData ic_fluent_reading_list_add_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP5);
   static const IconData ic_fluent_reading_list_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP5);
   static const IconData ic_fluent_reading_list_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP5);
   static const IconData ic_fluent_reading_mode_filled =
-      IconData(0xe870, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP5);
   static const IconData ic_fluent_reading_mode_mobile_filled =
-      IconData(0xe871, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP5);
   static const IconData ic_fluent_reading_mode_mobile_regular =
-      IconData(0xe872, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP5);
   static const IconData ic_fluent_reading_mode_regular =
-      IconData(0xe873, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP5);
   static const IconData ic_fluent_read_only_filled =
-      IconData(0xe874, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP5);
   static const IconData ic_fluent_read_only_regular =
-      IconData(0xe875, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP5);
   static const IconData ic_fluent_recommended_filled =
-      IconData(0xe876, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP5);
   static const IconData ic_fluent_recommended_regular =
-      IconData(0xe877, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP5);
   static const IconData ic_fluent_record_filled =
-      IconData(0xe878, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP5);
   static const IconData ic_fluent_record_regular =
-      IconData(0xe879, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP5);
   static const IconData ic_fluent_remove_filled =
-      IconData(0xe87a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP5);
   static const IconData ic_fluent_remove_recent_filled =
-      IconData(0xe87b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP5);
   static const IconData ic_fluent_remove_recent_regular =
-      IconData(0xe87c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP5);
   static const IconData ic_fluent_remove_regular =
-      IconData(0xe87d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP5);
   static const IconData ic_fluent_rename_filled =
-      IconData(0xe87e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP5);
   static const IconData ic_fluent_rename_regular =
-      IconData(0xe87f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP5);
   static const IconData ic_fluent_re_order_dots_filled =
-      IconData(0xe880, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP5);
   static const IconData ic_fluent_re_order_dots_regular =
-      IconData(0xe881, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP5);
   static const IconData ic_fluent_re_order_filled =
-      IconData(0xe882, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP5);
   static const IconData ic_fluent_re_order_regular =
-      IconData(0xe883, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP5);
   static const IconData ic_fluent_report_warning_filled =
-      IconData(0xe884, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP5);
   static const IconData ic_fluent_report_warning_regular =
-      IconData(0xe885, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP5);
   static const IconData ic_fluent_resize_image_filled =
-      IconData(0xe886, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP5);
   static const IconData ic_fluent_resize_image_regular =
-      IconData(0xe887, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP5);
   static const IconData ic_fluent_resize_video_filled =
-      IconData(0xe888, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP5);
   static const IconData ic_fluent_resize_video_regular =
-      IconData(0xe889, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP5);
   static const IconData ic_fluent_reward_filled =
-      IconData(0xe88a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP5);
   static const IconData ic_fluent_reward_regular =
-      IconData(0xe88b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP5);
   static const IconData ic_fluent_rewind_filled =
-      IconData(0xe88c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP5);
   static const IconData ic_fluent_rewind_regular =
-      IconData(0xe88d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP5);
   static const IconData ic_fluent_rocket_filled =
-      IconData(0xe88e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP5);
   static const IconData ic_fluent_rocket_regular =
-      IconData(0xe88f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP5);
   static const IconData ic_fluent_router_filled =
-      IconData(0xe890, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP5);
   static const IconData ic_fluent_router_regular =
-      IconData(0xe891, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP5);
   static const IconData ic_fluent_row_triple_filled =
-      IconData(0xe892, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP5);
   static const IconData ic_fluent_row_triple_regular =
-      IconData(0xe893, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP5);
   static const IconData ic_fluent_ruler_filled =
-      IconData(0xe894, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP5);
   static const IconData ic_fluent_ruler_regular =
-      IconData(0xe895, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP5);
   static const IconData ic_fluent_safe_filled =
-      IconData(0xe896, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP5);
   static const IconData ic_fluent_safe_regular =
-      IconData(0xe897, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP5);
   static const IconData ic_fluent_save_as_filled =
-      IconData(0xe898, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP5);
   static const IconData ic_fluent_save_as_regular =
-      IconData(0xe899, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP5);
   static const IconData ic_fluent_save_copy_filled =
-      IconData(0xe89a, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP5);
   static const IconData ic_fluent_save_copy_regular =
-      IconData(0xe89b, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP5);
   static const IconData ic_fluent_save_filled =
-      IconData(0xe89c, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP5);
   static const IconData ic_fluent_save_regular =
-      IconData(0xe89d, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP5);
   static const IconData ic_fluent_savings_filled =
-      IconData(0xe89e, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP5);
   static const IconData ic_fluent_savings_regular =
-      IconData(0xe89f, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP5);
   static const IconData ic_fluent_scan_filled =
-      IconData(0xe8a0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP5);
   static const IconData ic_fluent_scan_regular =
-      IconData(0xe8a1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP5);
   static const IconData ic_fluent_scratchpad_filled =
-      IconData(0xe8a2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP5);
   static const IconData ic_fluent_scratchpad_regular =
-      IconData(0xe8a3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP5);
   static const IconData ic_fluent_screenshot_filled =
-      IconData(0xe8a4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP5);
   static const IconData ic_fluent_screenshot_regular =
-      IconData(0xe8a5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP5);
   static const IconData ic_fluent_search_filled =
-      IconData(0xe8a6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP5);
   static const IconData ic_fluent_search_info_filled =
-      IconData(0xe8a7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP5);
   static const IconData ic_fluent_search_info_regular =
-      IconData(0xe8a8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP5);
   static const IconData ic_fluent_search_regular =
-      IconData(0xe8a9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP5);
   static const IconData ic_fluent_search_square_filled =
-      IconData(0xe8aa, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP5);
   static const IconData ic_fluent_search_square_regular =
-      IconData(0xe8ab, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP5);
   static const IconData ic_fluent_select_all_filled =
-      IconData(0xe8ac, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP5);
   static const IconData ic_fluent_select_all_off_filled =
-      IconData(0xe8ad, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP5);
   static const IconData ic_fluent_select_all_off_regular =
-      IconData(0xe8ae, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP5);
   static const IconData ic_fluent_select_all_regular =
-      IconData(0xe8af, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP5);
   static const IconData ic_fluent_select_object_filled =
-      IconData(0xe8b0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP5);
   static const IconData ic_fluent_select_object_regular =
-      IconData(0xe8b1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP5);
   static const IconData ic_fluent_send_copy_filled =
-      IconData(0xe8b2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP5);
   static const IconData ic_fluent_send_copy_regular =
-      IconData(0xe8b3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP5);
   static const IconData ic_fluent_send_filled =
-      IconData(0xe8b4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP5);
   static const IconData ic_fluent_send_logging_filled =
-      IconData(0xe8b5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP5);
   static const IconData ic_fluent_send_logging_regular =
-      IconData(0xe8b6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP5);
   static const IconData ic_fluent_send_regular =
-      IconData(0xe8b7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP5);
   static const IconData ic_fluent_send_to_back_filled =
-      IconData(0xe8b8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP5);
   static const IconData ic_fluent_send_to_back_regular =
-      IconData(0xe8b9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP5);
   static const IconData ic_fluent_serial_port_filled =
-      IconData(0xe8ba, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP5);
   static const IconData ic_fluent_serial_port_regular =
-      IconData(0xe8bb, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP5);
   static const IconData ic_fluent_settings_dev_filled =
-      IconData(0xe8bc, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP5);
   static const IconData ic_fluent_settings_dev_regular =
-      IconData(0xe8bd, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP5);
   static const IconData ic_fluent_settings_filled =
-      IconData(0xe8be, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP5);
   static const IconData ic_fluent_settings_regular =
-      IconData(0xe8bf, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP5);
   static const IconData ic_fluent_set_top_stack_filled =
-      IconData(0xe8c0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP5);
   static const IconData ic_fluent_set_top_stack_regular =
-      IconData(0xe8c1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP5);
   static const IconData ic_fluent_shapes_filled =
-      IconData(0xe8c2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP5);
   static const IconData ic_fluent_shapes_regular =
-      IconData(0xe8c3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP5);
   static const IconData ic_fluent_share_android_filled =
-      IconData(0xe8c4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP5);
   static const IconData ic_fluent_share_android_regular =
-      IconData(0xe8c5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP5);
   static const IconData ic_fluent_share_close_tray_filled =
-      IconData(0xe8c6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP5);
   static const IconData ic_fluent_share_close_tray_regular =
-      IconData(0xe8c7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP5);
   static const IconData ic_fluent_share_desktop_filled =
-      IconData(0xe8c8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP5);
   static const IconData ic_fluent_share_desktop_regular =
-      IconData(0xe8c9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP5);
   static const IconData ic_fluent_share_filled =
-      IconData(0xe8ca, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP5);
   static const IconData ic_fluent_share_ios_filled =
-      IconData(0xe8cb, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP5);
   static const IconData ic_fluent_share_ios_regular =
-      IconData(0xe8cc, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP5);
   static const IconData ic_fluent_share_regular =
-      IconData(0xe8cd, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP5);
   static const IconData ic_fluent_share_screen_filled =
-      IconData(0xe8ce, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP5);
   static const IconData ic_fluent_share_screen_regular =
-      IconData(0xe8cf, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP5);
   static const IconData ic_fluent_share_stop_filled =
-      IconData(0xe8d0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP5);
   static const IconData ic_fluent_share_stop_regular =
-      IconData(0xe8d1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP5);
   static const IconData ic_fluent_shield_filled =
-      IconData(0xe8d2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP5);
   static const IconData ic_fluent_shield_regular =
-      IconData(0xe8d3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP5);
   static const IconData ic_fluent_shifts_filled =
-      IconData(0xe8d4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP5);
   static const IconData ic_fluent_shifts_pending_filled =
-      IconData(0xe8d5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP5);
   static const IconData ic_fluent_shifts_pending_regular =
-      IconData(0xe8d6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP5);
   static const IconData ic_fluent_shifts_regular =
-      IconData(0xe8d7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP5);
   static const IconData ic_fluent_shifts_team_filled =
-      IconData(0xe8d8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP5);
   static const IconData ic_fluent_shifts_team_regular =
-      IconData(0xe8d9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP5);
   static const IconData ic_fluent_signature_filled =
-      IconData(0xe8da, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP5);
   static const IconData ic_fluent_signature_regular =
-      IconData(0xe8db, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP5);
   static const IconData ic_fluent_signed_filled =
-      IconData(0xe8dc, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP5);
   static const IconData ic_fluent_signed_regular =
-      IconData(0xe8dd, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP5);
   static const IconData ic_fluent_sign_out_filled =
-      IconData(0xe8de, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP5);
   static const IconData ic_fluent_sign_out_regular =
-      IconData(0xe8df, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP5);
   static const IconData ic_fluent_site_blocked_filled =
-      IconData(0xe8e0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP5);
   static const IconData ic_fluent_site_blocked_regular =
-      IconData(0xe8e1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP5);
   static const IconData ic_fluent_site_warning_filled =
-      IconData(0xe8e2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP5);
   static const IconData ic_fluent_site_warning_regular =
-      IconData(0xe8e3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP5);
   static const IconData ic_fluent_sleep_filled =
-      IconData(0xe8e4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP5);
   static const IconData ic_fluent_sleep_regular =
-      IconData(0xe8e5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP5);
   static const IconData ic_fluent_slide_add_filled =
-      IconData(0xe8e6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP5);
   static const IconData ic_fluent_slide_add_regular =
-      IconData(0xe8e7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP5);
   static const IconData ic_fluent_slide_design_filled =
-      IconData(0xe8e8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP5);
   static const IconData ic_fluent_slide_design_regular =
-      IconData(0xe8e9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP5);
   static const IconData ic_fluent_slide_hide_filled =
-      IconData(0xe8ea, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP5);
   static const IconData ic_fluent_slide_hide_regular =
-      IconData(0xe8eb, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP5);
   static const IconData ic_fluent_slide_layout_filled =
-      IconData(0xe8ec, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP5);
   static const IconData ic_fluent_slide_layout_regular =
-      IconData(0xe8ed, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP5);
   static const IconData ic_fluent_slide_text_filled =
-      IconData(0xe8ee, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP5);
   static const IconData ic_fluent_slide_text_regular =
-      IconData(0xe8ef, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP5);
   static const IconData ic_fluent_slow_mode_filled =
-      IconData(0xe8f0, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP5);
   static const IconData ic_fluent_slow_mode_regular =
-      IconData(0xe8f1, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP5);
   static const IconData ic_fluent_small_filled =
-      IconData(0xe8f2, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP5);
   static const IconData ic_fluent_small_regular =
-      IconData(0xe8f3, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP5);
   static const IconData ic_fluent_snooze_filled =
-      IconData(0xe8f4, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP5);
   static const IconData ic_fluent_snooze_regular =
-      IconData(0xe8f5, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f5, _kFontFamP5);
   static const IconData ic_fluent_sound_source_filled =
-      IconData(0xe8f6, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f6, _kFontFamP5);
   static const IconData ic_fluent_sound_source_regular =
-      IconData(0xe8f7, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f7, _kFontFamP5);
   static const IconData ic_fluent_spacebar_filled =
-      IconData(0xe8f8, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f8, _kFontFamP5);
   static const IconData ic_fluent_spacebar_regular =
-      IconData(0xe8f9, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f9, _kFontFamP5);
   static const IconData ic_fluent_speaker_0_filled =
-      IconData(0xe8fa, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fa, _kFontFamP5);
   static const IconData ic_fluent_speaker_0_regular =
-      IconData(0xe8fb, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fb, _kFontFamP5);
   static const IconData ic_fluent_speaker_1_filled =
-      IconData(0xe8fc, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fc, _kFontFamP5);
   static const IconData ic_fluent_speaker_1_regular =
-      IconData(0xe8fd, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fd, _kFontFamP5);
   static const IconData ic_fluent_speaker_bluetooth_filled =
-      IconData(0xe8fe, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fe, _kFontFamP5);
   static const IconData ic_fluent_speaker_bluetooth_regular =
-      IconData(0xe8ff, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ff, _kFontFamP5);
   static const IconData ic_fluent_speaker_edit_filled =
-      IconData(0xe900, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe900, _kFontFamP5);
   static const IconData ic_fluent_speaker_edit_regular =
-      IconData(0xe901, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe901, _kFontFamP5);
   static const IconData ic_fluent_speaker_filled =
-      IconData(0xe902, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe902, _kFontFamP5);
   static const IconData ic_fluent_speaker_none_filled =
-      IconData(0xe903, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe903, _kFontFamP5);
   static const IconData ic_fluent_speaker_none_regular =
-      IconData(0xe904, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe904, _kFontFamP5);
   static const IconData ic_fluent_speaker_off_filled =
-      IconData(0xe905, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe905, _kFontFamP5);
   static const IconData ic_fluent_speaker_off_regular =
-      IconData(0xe906, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe906, _kFontFamP5);
   static const IconData ic_fluent_speaker_regular =
-      IconData(0xe907, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe907, _kFontFamP5);
   static const IconData ic_fluent_speaker_settings_filled =
-      IconData(0xe908, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe908, _kFontFamP5);
   static const IconData ic_fluent_speaker_settings_regular =
-      IconData(0xe909, fontFamily: _kFontFamP5, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe909, _kFontFamP5);
   /*Part 5*/
 
   /*Part 6*/
   static const _kFontFamP6 = 'FluentSystemIconsP6';
   static const IconData ic_fluent_star_add_filled =
-      IconData(0xe800, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP6);
   static const IconData ic_fluent_star_add_regular =
-      IconData(0xe801, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP6);
   static const IconData ic_fluent_star_filled =
-      IconData(0xe802, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP6);
   static const IconData ic_fluent_star_half_filled =
-      IconData(0xe803, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP6);
   static const IconData ic_fluent_star_none_filled =
-      IconData(0xe804, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP6);
   static const IconData ic_fluent_star_none_regular =
-      IconData(0xe805, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP6);
   static const IconData ic_fluent_star_off_filled =
-      IconData(0xe806, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP6);
   static const IconData ic_fluent_star_off_regular =
-      IconData(0xe807, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP6);
   static const IconData ic_fluent_star_one_quarter_filled =
-      IconData(0xe808, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP6);
   static const IconData ic_fluent_star_regular =
-      IconData(0xe809, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP6);
   static const IconData ic_fluent_star_three_quarter_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP6);
   static const IconData ic_fluent_status_filled =
-      IconData(0xe80b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP6);
   static const IconData ic_fluent_status_regular =
-      IconData(0xe80c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP6);
   static const IconData ic_fluent_sticker_add_filled =
-      IconData(0xe80d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP6);
   static const IconData ic_fluent_sticker_add_regular =
-      IconData(0xe80e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP6);
   static const IconData ic_fluent_sticker_filled =
-      IconData(0xe80f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP6);
   static const IconData ic_fluent_sticker_regular =
-      IconData(0xe810, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP6);
   static const IconData ic_fluent_stop_filled =
-      IconData(0xe811, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP6);
   static const IconData ic_fluent_stop_regular =
-      IconData(0xe812, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP6);
   static const IconData ic_fluent_storage_filled =
-      IconData(0xe813, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP6);
   static const IconData ic_fluent_storage_regular =
-      IconData(0xe814, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP6);
   static const IconData ic_fluent_store_filled =
-      IconData(0xe815, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP6);
   static const IconData ic_fluent_store_microsoft_filled =
-      IconData(0xe816, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP6);
   static const IconData ic_fluent_store_microsoft_regular =
-      IconData(0xe817, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP6);
   static const IconData ic_fluent_store_regular =
-      IconData(0xe818, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP6);
   static const IconData ic_fluent_style_guide_filled =
-      IconData(0xe819, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP6);
   static const IconData ic_fluent_style_guide_regular =
-      IconData(0xe81a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP6);
   static const IconData ic_fluent_sub_grid_filled =
-      IconData(0xe81b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP6);
   static const IconData ic_fluent_sub_grid_regular =
-      IconData(0xe81c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP6);
   static const IconData ic_fluent_subway_filled =
-      IconData(0xe81d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP6);
   static const IconData ic_fluent_subway_regular =
-      IconData(0xe81e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP6);
   static const IconData ic_fluent_suggestion_filled =
-      IconData(0xe81f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP6);
   static const IconData ic_fluent_suggestion_regular =
-      IconData(0xe820, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP6);
   static const IconData ic_fluent_surface_earbuds_filled =
-      IconData(0xe821, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP6);
   static const IconData ic_fluent_surface_earbuds_regular =
-      IconData(0xe822, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP6);
   static const IconData ic_fluent_surface_hub_filled =
-      IconData(0xe823, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP6);
   static const IconData ic_fluent_surface_hub_regular =
-      IconData(0xe824, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP6);
   static const IconData ic_fluent_swipe_down_filled =
-      IconData(0xe825, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP6);
   static const IconData ic_fluent_swipe_down_regular =
-      IconData(0xe826, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP6);
   static const IconData ic_fluent_swipe_right_filled =
-      IconData(0xe827, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP6);
   static const IconData ic_fluent_swipe_right_regular =
-      IconData(0xe828, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP6);
   static const IconData ic_fluent_swipe_up_filled =
-      IconData(0xe829, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP6);
   static const IconData ic_fluent_swipe_up_regular =
-      IconData(0xe82a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP6);
   static const IconData ic_fluent_switch_video_filled =
-      IconData(0xe82b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP6);
   static const IconData ic_fluent_switch_video_regular =
-      IconData(0xe82c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP6);
   static const IconData ic_fluent_symbols_filled =
-      IconData(0xe82d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP6);
   static const IconData ic_fluent_symbols_regular =
-      IconData(0xe82e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP6);
   static const IconData ic_fluent_system_filled =
-      IconData(0xe82f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP6);
   static const IconData ic_fluent_system_regular =
-      IconData(0xe830, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP6);
   static const IconData ic_fluent_tab_desktop_arrow_clockwise_filled =
-      IconData(0xe831, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP6);
   static const IconData ic_fluent_tab_desktop_arrow_clockwise_regular =
-      IconData(0xe832, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP6);
   static const IconData ic_fluent_tab_desktop_image_filled =
-      IconData(0xe833, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP6);
   static const IconData ic_fluent_tab_desktop_image_regular =
-      IconData(0xe834, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP6);
   static const IconData ic_fluent_tab_filled =
-      IconData(0xe835, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP6);
   static const IconData ic_fluent_tab_in_private_filled =
-      IconData(0xe836, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP6);
   static const IconData ic_fluent_tab_in_private_regular =
-      IconData(0xe837, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP6);
   static const IconData ic_fluent_table_add_filled =
-      IconData(0xe838, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP6);
   static const IconData ic_fluent_table_add_regular =
-      IconData(0xe839, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP6);
   static const IconData ic_fluent_table_cells_merge_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP6);
   static const IconData ic_fluent_table_cells_merge_regular =
-      IconData(0xe83b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP6);
   static const IconData ic_fluent_table_cells_split_filled =
-      IconData(0xe83c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP6);
   static const IconData ic_fluent_table_cells_split_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP6);
   static const IconData ic_fluent_table_delete_filled =
-      IconData(0xe83e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP6);
   static const IconData ic_fluent_table_delete_regular =
-      IconData(0xe83f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP6);
   static const IconData ic_fluent_table_edit_filled =
-      IconData(0xe840, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP6);
   static const IconData ic_fluent_table_edit_regular =
-      IconData(0xe841, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP6);
   static const IconData ic_fluent_table_filled =
-      IconData(0xe842, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP6);
   static const IconData ic_fluent_table_regular =
-      IconData(0xe843, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP6);
   static const IconData ic_fluent_table_settings_filled =
-      IconData(0xe844, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP6);
   static const IconData ic_fluent_table_settings_regular =
-      IconData(0xe845, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP6);
   static const IconData ic_fluent_tablet_filled =
-      IconData(0xe846, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP6);
   static const IconData ic_fluent_tablet_regular =
-      IconData(0xe847, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP6);
   static const IconData ic_fluent_tab_new_filled =
-      IconData(0xe848, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP6);
   static const IconData ic_fluent_tab_new_regular =
-      IconData(0xe849, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP6);
   static const IconData ic_fluent_tab_regular =
-      IconData(0xe84a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP6);
   static const IconData ic_fluent_tabs_filled =
-      IconData(0xe84b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP6);
   static const IconData ic_fluent_tabs_regular =
-      IconData(0xe84c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP6);
   static const IconData ic_fluent_tab_sweep_filled =
-      IconData(0xe84d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP6);
   static const IconData ic_fluent_tab_sweep_regular =
-      IconData(0xe84e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP6);
   static const IconData ic_fluent_tab_tracking_prevention_filled =
-      IconData(0xe84f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP6);
   static const IconData ic_fluent_tab_tracking_prevention_regular =
-      IconData(0xe850, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP6);
   static const IconData ic_fluent_tag_filled =
-      IconData(0xe851, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP6);
   static const IconData ic_fluent_tag_regular =
-      IconData(0xe852, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP6);
   static const IconData ic_fluent_tap_double_filled =
-      IconData(0xe853, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP6);
   static const IconData ic_fluent_tap_double_regular =
-      IconData(0xe854, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP6);
   static const IconData ic_fluent_tap_single_filled =
-      IconData(0xe855, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP6);
   static const IconData ic_fluent_tap_single_regular =
-      IconData(0xe856, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP6);
   static const IconData ic_fluent_target_edit_filled =
-      IconData(0xe857, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP6);
   static const IconData ic_fluent_target_edit_regular =
-      IconData(0xe858, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP6);
   static const IconData ic_fluent_target_filled =
-      IconData(0xe859, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP6);
   static const IconData ic_fluent_target_regular =
-      IconData(0xe85a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP6);
   static const IconData ic_fluent_team_add_filled =
-      IconData(0xe85b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP6);
   static const IconData ic_fluent_team_add_regular =
-      IconData(0xe85c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP6);
   static const IconData ic_fluent_team_delete_filled =
-      IconData(0xe85d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP6);
   static const IconData ic_fluent_team_delete_regular =
-      IconData(0xe85e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP6);
   static const IconData ic_fluent_teddy_filled =
-      IconData(0xe85f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP6);
   static const IconData ic_fluent_teddy_regular =
-      IconData(0xe860, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP6);
   static const IconData ic_fluent_temperature_filled =
-      IconData(0xe861, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP6);
   static const IconData ic_fluent_temperature_regular =
-      IconData(0xe862, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP6);
   static const IconData ic_fluent_test_call_filled =
-      IconData(0xe863, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP6);
   static const IconData ic_fluent_test_call_regular =
-      IconData(0xe864, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP6);
   static const IconData ic_fluent_text_add_filled =
-      IconData(0xe865, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP6);
   static const IconData ic_fluent_text_add_regular =
-      IconData(0xe866, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP6);
   static const IconData ic_fluent_text_add_space_after_filled =
-      IconData(0xe867, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP6);
   static const IconData ic_fluent_text_add_space_after_regular =
-      IconData(0xe868, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP6);
   static const IconData ic_fluent_text_add_space_before_filled =
-      IconData(0xe869, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP6);
   static const IconData ic_fluent_text_add_space_before_regular =
-      IconData(0xe86a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP6);
   static const IconData ic_fluent_text_align_center_filled =
-      IconData(0xe86b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP6);
   static const IconData ic_fluent_text_align_center_regular =
-      IconData(0xe86c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP6);
   static const IconData ic_fluent_text_align_distributed_filled =
-      IconData(0xe86d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP6);
   static const IconData ic_fluent_text_align_distributed_regular =
-      IconData(0xe86e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP6);
   static const IconData ic_fluent_text_align_justify_filled =
-      IconData(0xe86f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP6);
   static const IconData ic_fluent_text_align_justify_regular =
-      IconData(0xe870, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP6);
   static const IconData ic_fluent_text_align_left_filled =
-      IconData(0xe871, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP6);
   static const IconData ic_fluent_text_align_left_regular =
-      IconData(0xe872, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP6);
   static const IconData ic_fluent_text_align_right_filled =
-      IconData(0xe873, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP6);
   static const IconData ic_fluent_text_align_right_regular =
-      IconData(0xe874, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP6);
   static const IconData ic_fluent_text_bold_filled =
-      IconData(0xe875, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP6);
   static const IconData ic_fluent_text_bold_regular =
-      IconData(0xe876, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_bottom_filled =
-      IconData(0xe877, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_bottom_regular =
-      IconData(0xe878, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_filled =
-      IconData(0xe879, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_middle_filled =
-      IconData(0xe87a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_middle_regular =
-      IconData(0xe87b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_regular =
-      IconData(0xe87c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_top_filled =
-      IconData(0xe87d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP6);
   static const IconData ic_fluent_textbox_align_top_regular =
-      IconData(0xe87e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP6);
   static const IconData ic_fluent_textbox_filled =
-      IconData(0xe87f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP6);
   static const IconData ic_fluent_textbox_regular =
-      IconData(0xe880, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP6);
   static const IconData ic_fluent_textbox_vertical_filled =
-      IconData(0xe881, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP6);
   static const IconData ic_fluent_textbox_vertical_regular =
-      IconData(0xe882, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_filled =
-      IconData(0xe883, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_regular =
-      IconData(0xe884, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_square_filled =
-      IconData(0xe885, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_square_regular =
-      IconData(0xe886, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_tree_filled =
-      IconData(0xe887, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP6);
   static const IconData ic_fluent_text_bullet_list_tree_regular =
-      IconData(0xe888, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP6);
   static const IconData ic_fluent_text_change_accept_filled =
-      IconData(0xe889, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP6);
   static const IconData ic_fluent_text_change_accept_regular =
-      IconData(0xe88a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP6);
   static const IconData ic_fluent_text_change_case_filled =
-      IconData(0xe88b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP6);
   static const IconData ic_fluent_text_change_case_regular =
-      IconData(0xe88c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP6);
   static const IconData ic_fluent_text_change_next_filled =
-      IconData(0xe88d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP6);
   static const IconData ic_fluent_text_change_next_regular =
-      IconData(0xe88e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP6);
   static const IconData ic_fluent_text_change_previous_filled =
-      IconData(0xe88f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP6);
   static const IconData ic_fluent_text_change_previous_regular =
-      IconData(0xe890, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP6);
   static const IconData ic_fluent_text_change_reject_filled =
-      IconData(0xe891, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP6);
   static const IconData ic_fluent_text_change_reject_regular =
-      IconData(0xe892, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP6);
   static const IconData ic_fluent_text_change_settings_filled =
-      IconData(0xe893, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP6);
   static const IconData ic_fluent_text_change_settings_regular =
-      IconData(0xe894, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP6);
   static const IconData ic_fluent_text_clear_formatting_filled =
-      IconData(0xe895, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP6);
   static const IconData ic_fluent_text_clear_formatting_regular =
-      IconData(0xe896, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe896, _kFontFamP6);
   static const IconData ic_fluent_text_collapse_filled =
-      IconData(0xe897, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe897, _kFontFamP6);
   static const IconData ic_fluent_text_collapse_regular =
-      IconData(0xe898, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe898, _kFontFamP6);
   static const IconData ic_fluent_text_color_filled =
-      IconData(0xe899, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe899, _kFontFamP6);
   static const IconData ic_fluent_text_color_regular =
-      IconData(0xe89a, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89a, _kFontFamP6);
   static const IconData ic_fluent_text_column_one_filled =
-      IconData(0xe89b, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89b, _kFontFamP6);
   static const IconData ic_fluent_text_column_one_regular =
-      IconData(0xe89c, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89c, _kFontFamP6);
   static const IconData ic_fluent_text_column_three_filled =
-      IconData(0xe89d, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89d, _kFontFamP6);
   static const IconData ic_fluent_text_column_three_regular =
-      IconData(0xe89e, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89e, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_filled =
-      IconData(0xe89f, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe89f, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_left_filled =
-      IconData(0xe8a0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a0, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_left_regular =
-      IconData(0xe8a1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a1, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_regular =
-      IconData(0xe8a2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a2, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_right_filled =
-      IconData(0xe8a3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a3, _kFontFamP6);
   static const IconData ic_fluent_text_column_two_right_regular =
-      IconData(0xe8a4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a4, _kFontFamP6);
   static const IconData ic_fluent_text_description_filled =
-      IconData(0xe8a5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a5, _kFontFamP6);
   static const IconData ic_fluent_text_description_regular =
-      IconData(0xe8a6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a6, _kFontFamP6);
   static const IconData ic_fluent_text_direction_filled =
-      IconData(0xe8a7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a7, _kFontFamP6);
   static const IconData ic_fluent_text_direction_horizontal_ltr_filled =
-      IconData(0xe8a8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a8, _kFontFamP6);
   static const IconData ic_fluent_text_direction_horizontal_ltr_regular =
-      IconData(0xe8a9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8a9, _kFontFamP6);
   static const IconData ic_fluent_text_direction_regular =
-      IconData(0xe8aa, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8aa, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_90_filled =
-      IconData(0xe8ab, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ab, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_90_regular =
-      IconData(0xe8ac, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ac, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_270_ac_filled =
-      IconData(0xe8ad, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ad, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_270_ac_regular =
-      IconData(0xe8ae, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ae, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_270_filled =
-      IconData(0xe8af, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8af, _kFontFamP6);
   static const IconData ic_fluent_text_direction_rotate_270_regular =
-      IconData(0xe8b0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b0, _kFontFamP6);
   static const IconData ic_fluent_text_direction_vertical_filled =
-      IconData(0xe8b1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b1, _kFontFamP6);
   static const IconData ic_fluent_text_direction_vertical_regular =
-      IconData(0xe8b2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b2, _kFontFamP6);
   static const IconData ic_fluent_text_edit_style_filled =
-      IconData(0xe8b3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b3, _kFontFamP6);
   static const IconData ic_fluent_text_edit_style_regular =
-      IconData(0xe8b4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b4, _kFontFamP6);
   static const IconData ic_fluent_text_effects_filled =
-      IconData(0xe8b5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b5, _kFontFamP6);
   static const IconData ic_fluent_text_effects_regular =
-      IconData(0xe8b6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b6, _kFontFamP6);
   static const IconData ic_fluent_text_expand_filled =
-      IconData(0xe8b7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b7, _kFontFamP6);
   static const IconData ic_fluent_text_expand_regular =
-      IconData(0xe8b8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b8, _kFontFamP6);
   static const IconData ic_fluent_text_field_filled =
-      IconData(0xe8b9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8b9, _kFontFamP6);
   static const IconData ic_fluent_text_field_regular =
-      IconData(0xe8ba, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ba, _kFontFamP6);
   static const IconData ic_fluent_text_filled =
-      IconData(0xe8bb, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bb, _kFontFamP6);
   static const IconData ic_fluent_text_first_line_filled =
-      IconData(0xe8bc, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bc, _kFontFamP6);
   static const IconData ic_fluent_text_first_line_regular =
-      IconData(0xe8bd, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bd, _kFontFamP6);
   static const IconData ic_fluent_text_font_filled =
-      IconData(0xe8be, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8be, _kFontFamP6);
   static const IconData ic_fluent_text_font_regular =
-      IconData(0xe8bf, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8bf, _kFontFamP6);
   static const IconData ic_fluent_text_font_size_filled =
-      IconData(0xe8c0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c0, _kFontFamP6);
   static const IconData ic_fluent_text_font_size_regular =
-      IconData(0xe8c1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c1, _kFontFamP6);
   static const IconData ic_fluent_text_footnote_filled =
-      IconData(0xe8c2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c2, _kFontFamP6);
   static const IconData ic_fluent_text_footnote_regular =
-      IconData(0xe8c3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c3, _kFontFamP6);
   static const IconData ic_fluent_text_grammar_options_filled =
-      IconData(0xe8c4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c4, _kFontFamP6);
   static const IconData ic_fluent_text_grammar_options_regular =
-      IconData(0xe8c5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c5, _kFontFamP6);
   static const IconData ic_fluent_text_hanging_filled =
-      IconData(0xe8c6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c6, _kFontFamP6);
   static const IconData ic_fluent_text_hanging_regular =
-      IconData(0xe8c7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c7, _kFontFamP6);
   static const IconData ic_fluent_text_indent_decrease_filled =
-      IconData(0xe8c8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c8, _kFontFamP6);
   static const IconData ic_fluent_text_indent_decrease_regular =
-      IconData(0xe8c9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8c9, _kFontFamP6);
   static const IconData ic_fluent_text_indent_increase_filled =
-      IconData(0xe8ca, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ca, _kFontFamP6);
   static const IconData ic_fluent_text_indent_increase_regular =
-      IconData(0xe8cb, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cb, _kFontFamP6);
   static const IconData ic_fluent_text_italic_filled =
-      IconData(0xe8cc, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cc, _kFontFamP6);
   static const IconData ic_fluent_text_italic_regular =
-      IconData(0xe8cd, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cd, _kFontFamP6);
   static const IconData ic_fluent_text_line_spacing_filled =
-      IconData(0xe8ce, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ce, _kFontFamP6);
   static const IconData ic_fluent_text_line_spacing_regular =
-      IconData(0xe8cf, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8cf, _kFontFamP6);
   static const IconData ic_fluent_text_number_format_filled =
-      IconData(0xe8d0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d0, _kFontFamP6);
   static const IconData ic_fluent_text_number_format_regular =
-      IconData(0xe8d1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d1, _kFontFamP6);
   static const IconData ic_fluent_text_number_list_ltr_filled =
-      IconData(0xe8d2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d2, _kFontFamP6);
   static const IconData ic_fluent_text_number_list_ltr_regular =
-      IconData(0xe8d3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d3, _kFontFamP6);
   static const IconData ic_fluent_text_number_list_rtl_filled =
-      IconData(0xe8d4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d4, _kFontFamP6);
   static const IconData ic_fluent_text_number_list_rtl_regular =
-      IconData(0xe8d5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d5, _kFontFamP6);
   static const IconData ic_fluent_text_paragraph_settings_filled =
-      IconData(0xe8d6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d6, _kFontFamP6);
   static const IconData ic_fluent_text_paragraph_settings_regular =
-      IconData(0xe8d7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d7, _kFontFamP6);
   static const IconData ic_fluent_text_proofing_tools_filled =
-      IconData(0xe8d8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d8, _kFontFamP6);
   static const IconData ic_fluent_text_proofing_tools_regular =
-      IconData(0xe8d9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8d9, _kFontFamP6);
   static const IconData ic_fluent_text_quote_filled =
-      IconData(0xe8da, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8da, _kFontFamP6);
   static const IconData ic_fluent_text_quote_regular =
-      IconData(0xe8db, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8db, _kFontFamP6);
   static const IconData ic_fluent_text_regular =
-      IconData(0xe8dc, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dc, _kFontFamP6);
   static const IconData ic_fluent_text_strikethrough_filled =
-      IconData(0xe8dd, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8dd, _kFontFamP6);
   static const IconData ic_fluent_text_strikethrough_regular =
-      IconData(0xe8de, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8de, _kFontFamP6);
   static const IconData ic_fluent_text_subscript_filled =
-      IconData(0xe8df, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8df, _kFontFamP6);
   static const IconData ic_fluent_text_subscript_regular =
-      IconData(0xe8e0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e0, _kFontFamP6);
   static const IconData ic_fluent_text_superscript_filled =
-      IconData(0xe8e1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e1, _kFontFamP6);
   static const IconData ic_fluent_text_superscript_regular =
-      IconData(0xe8e2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e2, _kFontFamP6);
   static const IconData ic_fluent_text_underline_filled =
-      IconData(0xe8e3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e3, _kFontFamP6);
   static const IconData ic_fluent_text_underline_regular =
-      IconData(0xe8e4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e4, _kFontFamP6);
   static const IconData ic_fluent_text_word_count_filled =
-      IconData(0xe8e5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e5, _kFontFamP6);
   static const IconData ic_fluent_text_word_count_regular =
-      IconData(0xe8e6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e6, _kFontFamP6);
   static const IconData ic_fluent_thinking_filled =
-      IconData(0xe8e7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e7, _kFontFamP6);
   static const IconData ic_fluent_thinking_regular =
-      IconData(0xe8e8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e8, _kFontFamP6);
   static const IconData ic_fluent_thumb_dislike_filled =
-      IconData(0xe8e9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8e9, _kFontFamP6);
   static const IconData ic_fluent_thumb_dislike_regular =
-      IconData(0xe8ea, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ea, _kFontFamP6);
   static const IconData ic_fluent_thumb_like_filled =
-      IconData(0xe8eb, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8eb, _kFontFamP6);
   static const IconData ic_fluent_thumb_like_regular =
-      IconData(0xe8ec, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ec, _kFontFamP6);
   static const IconData ic_fluent_ticket_filled =
-      IconData(0xe8ed, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ed, _kFontFamP6);
   static const IconData ic_fluent_ticket_regular =
-      IconData(0xe8ee, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ee, _kFontFamP6);
   static const IconData ic_fluent_time_and_weather_filled =
-      IconData(0xe8ef, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ef, _kFontFamP6);
   static const IconData ic_fluent_time_and_weather_regular =
-      IconData(0xe8f0, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f0, _kFontFamP6);
   static const IconData ic_fluent_timeline_filled =
-      IconData(0xe8f1, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f1, _kFontFamP6);
   static const IconData ic_fluent_timeline_regular =
-      IconData(0xe8f2, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f2, _kFontFamP6);
   static const IconData ic_fluent_time_picker_filled =
-      IconData(0xe8f3, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f3, _kFontFamP6);
   static const IconData ic_fluent_time_picker_regular =
-      IconData(0xe8f4, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f4, _kFontFamP6);
   static const IconData ic_fluent_timer_2_filled =
-      IconData(0xe8f5, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f5, _kFontFamP6);
   static const IconData ic_fluent_timer_2_regular =
-      IconData(0xe8f6, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f6, _kFontFamP6);
   static const IconData ic_fluent_timer_10_filled =
-      IconData(0xe8f7, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f7, _kFontFamP6);
   static const IconData ic_fluent_timer_10_regular =
-      IconData(0xe8f8, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f8, _kFontFamP6);
   static const IconData ic_fluent_timer_filled =
-      IconData(0xe8f9, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8f9, _kFontFamP6);
   static const IconData ic_fluent_timer_off_filled =
-      IconData(0xe8fa, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fa, _kFontFamP6);
   static const IconData ic_fluent_timer_off_regular =
-      IconData(0xe8fb, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fb, _kFontFamP6);
   static const IconData ic_fluent_timer_regular =
-      IconData(0xe8fc, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fc, _kFontFamP6);
   static const IconData ic_fluent_toggle_right_filled =
-      IconData(0xe8fd, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fd, _kFontFamP6);
   static const IconData ic_fluent_toggle_right_regular =
-      IconData(0xe8fe, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8fe, _kFontFamP6);
   static const IconData ic_fluent_toolbox_filled =
-      IconData(0xe8ff, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe8ff, _kFontFamP6);
   static const IconData ic_fluent_toolbox_regular =
-      IconData(0xe900, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe900, _kFontFamP6);
   static const IconData ic_fluent_top_speed_filled =
-      IconData(0xe901, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe901, _kFontFamP6);
   static const IconData ic_fluent_top_speed_regular =
-      IconData(0xe902, fontFamily: _kFontFamP6, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe902, _kFontFamP6);
   /*Part 6*/
 
   /*Part 7*/
   static const _kFontFamP7 = 'FluentSystemIconsP7';
   static const IconData ic_fluent_arrow_export_filled =
-      IconData(0xe800, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe800, _kFontFamP7);
   static const IconData ic_fluent_arrow_export_regular =
-      IconData(0xe801, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe801, _kFontFamP7);
   static const IconData ic_fluent_calculator_filled =
-      IconData(0xe802, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe802, _kFontFamP7);
   static const IconData ic_fluent_calculator_regular =
-      IconData(0xe803, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe803, _kFontFamP7);
   static const IconData ic_fluent_cut_filled =
-      IconData(0xe804, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe804, _kFontFamP7);
   static const IconData ic_fluent_cut_regular =
-      IconData(0xe805, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe805, _kFontFamP7);
   static const IconData ic_fluent_document_top_center_filled =
-      IconData(0xe806, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe806, _kFontFamP7);
   static const IconData ic_fluent_document_top_center_regular =
-      IconData(0xe807, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe807, _kFontFamP7);
   static const IconData ic_fluent_document_top_left_filled =
-      IconData(0xe808, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe808, _kFontFamP7);
   static const IconData ic_fluent_document_top_left_regular =
-      IconData(0xe809, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe809, _kFontFamP7);
   static const IconData ic_fluent_document_top_right_filled =
-      IconData(0xe80a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80a, _kFontFamP7);
   static const IconData ic_fluent_document_top_right_regular =
-      IconData(0xe80b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80b, _kFontFamP7);
   static const IconData ic_fluent_folder_briefcase_filled =
-      IconData(0xe80c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80c, _kFontFamP7);
   static const IconData ic_fluent_folder_briefcase_regular =
-      IconData(0xe80d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80d, _kFontFamP7);
   static const IconData ic_fluent_folder_open_vertical_filled =
-      IconData(0xe80e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80e, _kFontFamP7);
   static const IconData ic_fluent_folder_open_vertical_regular =
-      IconData(0xe80f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe80f, _kFontFamP7);
   static const IconData ic_fluent_ios_chevron_right_filled =
-      IconData(0xe810, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe810, _kFontFamP7);
   static const IconData ic_fluent_ios_chevron_right_regular =
-      IconData(0xe811, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe811, _kFontFamP7);
   static const IconData ic_fluent_link_remove_filled =
-      IconData(0xe812, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe812, _kFontFamP7);
   static const IconData ic_fluent_link_remove_regular =
-      IconData(0xe813, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe813, _kFontFamP7);
   static const IconData ic_fluent_organization_filled =
-      IconData(0xe814, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe814, _kFontFamP7);
   static const IconData ic_fluent_organization_regular =
-      IconData(0xe815, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe815, _kFontFamP7);
   static const IconData ic_fluent_page_filled =
-      IconData(0xe816, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe816, _kFontFamP7);
   static const IconData ic_fluent_page_regular =
-      IconData(0xe817, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe817, _kFontFamP7);
   static const IconData ic_fluent_resize_filled =
-      IconData(0xe818, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe818, _kFontFamP7);
   static const IconData ic_fluent_resize_regular =
-      IconData(0xe819, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe819, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_clock_filled =
-      IconData(0xe81a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81a, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_clock_regular =
-      IconData(0xe81b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81b, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_filled =
-      IconData(0xe81c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81c, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_new_page_filled =
-      IconData(0xe81d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81d, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_new_page_regular =
-      IconData(0xe81e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81e, _kFontFamP7);
   static const IconData ic_fluent_tab_desktop_regular =
-      IconData(0xe81f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe81f, _kFontFamP7);
   static const IconData ic_fluent_text_header_1_filled =
-      IconData(0xe820, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe820, _kFontFamP7);
   static const IconData ic_fluent_text_header_1_regular =
-      IconData(0xe821, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe821, _kFontFamP7);
   static const IconData ic_fluent_text_header_2_filled =
-      IconData(0xe822, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe822, _kFontFamP7);
   static const IconData ic_fluent_text_header_2_regular =
-      IconData(0xe823, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe823, _kFontFamP7);
   static const IconData ic_fluent_text_header_3_filled =
-      IconData(0xe824, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe824, _kFontFamP7);
   static const IconData ic_fluent_text_header_3_regular =
-      IconData(0xe825, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe825, _kFontFamP7);
   static const IconData ic_fluent_translate_filled =
-      IconData(0xe826, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe826, _kFontFamP7);
   static const IconData ic_fluent_translate_regular =
-      IconData(0xe827, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe827, _kFontFamP7);
   static const IconData ic_fluent_trophy_filled =
-      IconData(0xe828, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe828, _kFontFamP7);
   static const IconData ic_fluent_trophy_regular =
-      IconData(0xe829, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe829, _kFontFamP7);
   static const IconData ic_fluent_uninstall_app_filled =
-      IconData(0xe82a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82a, _kFontFamP7);
   static const IconData ic_fluent_uninstall_app_regular =
-      IconData(0xe82b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82b, _kFontFamP7);
   static const IconData ic_fluent_unlock_filled =
-      IconData(0xe82c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82c, _kFontFamP7);
   static const IconData ic_fluent_unlock_regular =
-      IconData(0xe82d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82d, _kFontFamP7);
   static const IconData ic_fluent_upgrade_filled =
-      IconData(0xe82e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82e, _kFontFamP7);
   static const IconData ic_fluent_upgrade_regular =
-      IconData(0xe82f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe82f, _kFontFamP7);
   static const IconData ic_fluent_upload_filled =
-      IconData(0xe830, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe830, _kFontFamP7);
   static const IconData ic_fluent_upload_regular =
-      IconData(0xe831, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe831, _kFontFamP7);
   static const IconData ic_fluent_usb_port_filled =
-      IconData(0xe832, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe832, _kFontFamP7);
   static const IconData ic_fluent_usb_port_regular =
-      IconData(0xe833, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe833, _kFontFamP7);
   static const IconData ic_fluent_usb_stick_filled =
-      IconData(0xe834, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe834, _kFontFamP7);
   static const IconData ic_fluent_usb_stick_regular =
-      IconData(0xe835, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe835, _kFontFamP7);
   static const IconData ic_fluent_video_background_effect_filled =
-      IconData(0xe836, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe836, _kFontFamP7);
   static const IconData ic_fluent_video_background_effect_regular =
-      IconData(0xe837, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe837, _kFontFamP7);
   static const IconData ic_fluent_video_clip_filled =
-      IconData(0xe838, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe838, _kFontFamP7);
   static const IconData ic_fluent_video_clip_regular =
-      IconData(0xe839, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe839, _kFontFamP7);
   static const IconData ic_fluent_video_filled =
-      IconData(0xe83a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83a, _kFontFamP7);
   static const IconData ic_fluent_video_incoming_filled =
-      IconData(0xe83b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83b, _kFontFamP7);
   static const IconData ic_fluent_video_incoming_off_filled =
-      IconData(0xe83c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83c, _kFontFamP7);
   static const IconData ic_fluent_video_incoming_off_regular =
-      IconData(0xe83d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83d, _kFontFamP7);
   static const IconData ic_fluent_video_incoming_regular =
-      IconData(0xe83e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83e, _kFontFamP7);
   static const IconData ic_fluent_video_off_filled =
-      IconData(0xe83f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe83f, _kFontFamP7);
   static const IconData ic_fluent_video_off_regular =
-      IconData(0xe840, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe840, _kFontFamP7);
   static const IconData ic_fluent_video_play_pause_filled =
-      IconData(0xe841, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe841, _kFontFamP7);
   static const IconData ic_fluent_video_play_pause_regular =
-      IconData(0xe842, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe842, _kFontFamP7);
   static const IconData ic_fluent_video_regular =
-      IconData(0xe843, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe843, _kFontFamP7);
   static const IconData ic_fluent_video_security_filled =
-      IconData(0xe844, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe844, _kFontFamP7);
   static const IconData ic_fluent_video_security_regular =
-      IconData(0xe845, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe845, _kFontFamP7);
   static const IconData ic_fluent_view_desktop_filled =
-      IconData(0xe846, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe846, _kFontFamP7);
   static const IconData ic_fluent_view_desktop_mobile_filled =
-      IconData(0xe847, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe847, _kFontFamP7);
   static const IconData ic_fluent_view_desktop_mobile_regular =
-      IconData(0xe848, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe848, _kFontFamP7);
   static const IconData ic_fluent_view_desktop_regular =
-      IconData(0xe849, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe849, _kFontFamP7);
   static const IconData ic_fluent_voicemail_filled =
-      IconData(0xe84a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84a, _kFontFamP7);
   static const IconData ic_fluent_voicemail_regular =
-      IconData(0xe84b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84b, _kFontFamP7);
   static const IconData ic_fluent_wallpaper_filled =
-      IconData(0xe84c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84c, _kFontFamP7);
   static const IconData ic_fluent_wallpaper_regular =
-      IconData(0xe84d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84d, _kFontFamP7);
   static const IconData ic_fluent_warning_filled =
-      IconData(0xe84e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84e, _kFontFamP7);
   static const IconData ic_fluent_warning_regular =
-      IconData(0xe84f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe84f, _kFontFamP7);
   static const IconData ic_fluent_weather_blowing_snow_filled =
-      IconData(0xe850, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe850, _kFontFamP7);
   static const IconData ic_fluent_weather_blowing_snow_regular =
-      IconData(0xe851, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe851, _kFontFamP7);
   static const IconData ic_fluent_weather_cloudy_filled =
-      IconData(0xe852, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe852, _kFontFamP7);
   static const IconData ic_fluent_weather_cloudy_regular =
-      IconData(0xe853, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe853, _kFontFamP7);
   static const IconData ic_fluent_weather_duststorm_filled =
-      IconData(0xe854, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe854, _kFontFamP7);
   static const IconData ic_fluent_weather_duststorm_regular =
-      IconData(0xe855, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe855, _kFontFamP7);
   static const IconData ic_fluent_weather_fog_filled =
-      IconData(0xe856, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe856, _kFontFamP7);
   static const IconData ic_fluent_weather_fog_regular =
-      IconData(0xe857, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe857, _kFontFamP7);
   static const IconData ic_fluent_weather_hail_day_filled =
-      IconData(0xe858, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe858, _kFontFamP7);
   static const IconData ic_fluent_weather_hail_day_regular =
-      IconData(0xe859, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe859, _kFontFamP7);
   static const IconData ic_fluent_weather_hail_night_filled =
-      IconData(0xe85a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85a, _kFontFamP7);
   static const IconData ic_fluent_weather_hail_night_regular =
-      IconData(0xe85b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85b, _kFontFamP7);
   static const IconData ic_fluent_weather_moon_filled =
-      IconData(0xe85c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85c, _kFontFamP7);
   static const IconData ic_fluent_weather_moon_regular =
-      IconData(0xe85d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85d, _kFontFamP7);
   static const IconData ic_fluent_weather_partly_cloudy_day_filled =
-      IconData(0xe85e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85e, _kFontFamP7);
   static const IconData ic_fluent_weather_partly_cloudy_day_regular =
-      IconData(0xe85f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe85f, _kFontFamP7);
   static const IconData ic_fluent_weather_partly_cloudy_night_filled =
-      IconData(0xe860, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe860, _kFontFamP7);
   static const IconData ic_fluent_weather_partly_cloudy_night_regular =
-      IconData(0xe861, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe861, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_filled =
-      IconData(0xe862, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe862, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_regular =
-      IconData(0xe863, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe863, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_showers_day_filled =
-      IconData(0xe864, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe864, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_showers_day_regular =
-      IconData(0xe865, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe865, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_showers_night_filled =
-      IconData(0xe866, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe866, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_showers_night_regular =
-      IconData(0xe867, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe867, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_snow_filled =
-      IconData(0xe868, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe868, _kFontFamP7);
   static const IconData ic_fluent_weather_rain_snow_regular =
-      IconData(0xe869, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe869, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_filled =
-      IconData(0xe86a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86a, _kFontFamP7);
   static const IconData ic_fluent_weather_snowflake_filled =
-      IconData(0xe86b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86b, _kFontFamP7);
   static const IconData ic_fluent_weather_snowflake_regular =
-      IconData(0xe86c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86c, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_regular =
-      IconData(0xe86d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86d, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_shower_day_filled =
-      IconData(0xe86e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86e, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_shower_day_regular =
-      IconData(0xe86f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe86f, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_shower_night_filled =
-      IconData(0xe870, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe870, _kFontFamP7);
   static const IconData ic_fluent_weather_snow_shower_night_regular =
-      IconData(0xe871, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe871, _kFontFamP7);
   static const IconData ic_fluent_weather_squalls_filled =
-      IconData(0xe872, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe872, _kFontFamP7);
   static const IconData ic_fluent_weather_squalls_regular =
-      IconData(0xe873, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe873, _kFontFamP7);
   static const IconData ic_fluent_weather_sunny_filled =
-      IconData(0xe874, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe874, _kFontFamP7);
   static const IconData ic_fluent_weather_sunny_regular =
-      IconData(0xe875, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe875, _kFontFamP7);
   static const IconData ic_fluent_weather_thunderstorm_filled =
-      IconData(0xe876, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe876, _kFontFamP7);
   static const IconData ic_fluent_weather_thunderstorm_regular =
-      IconData(0xe877, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe877, _kFontFamP7);
   static const IconData ic_fluent_web_asset_filled =
-      IconData(0xe878, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe878, _kFontFamP7);
   static const IconData ic_fluent_web_asset_regular =
-      IconData(0xe879, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe879, _kFontFamP7);
   static const IconData ic_fluent_weekend_filled =
-      IconData(0xe87a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87a, _kFontFamP7);
   static const IconData ic_fluent_weekend_regular =
-      IconData(0xe87b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87b, _kFontFamP7);
   static const IconData ic_fluent_whiteboard_filled =
-      IconData(0xe87c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87c, _kFontFamP7);
   static const IconData ic_fluent_whiteboard_regular =
-      IconData(0xe87d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87d, _kFontFamP7);
   static const IconData ic_fluent_wifi_1_filled =
-      IconData(0xe87e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87e, _kFontFamP7);
   static const IconData ic_fluent_wifi_1_regular =
-      IconData(0xe87f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe87f, _kFontFamP7);
   static const IconData ic_fluent_wifi_2_filled =
-      IconData(0xe880, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe880, _kFontFamP7);
   static const IconData ic_fluent_wifi_2_regular =
-      IconData(0xe881, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe881, _kFontFamP7);
   static const IconData ic_fluent_wifi_3_filled =
-      IconData(0xe882, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe882, _kFontFamP7);
   static const IconData ic_fluent_wifi_3_regular =
-      IconData(0xe883, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe883, _kFontFamP7);
   static const IconData ic_fluent_wifi_4_filled =
-      IconData(0xe884, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe884, _kFontFamP7);
   static const IconData ic_fluent_wifi_4_regular =
-      IconData(0xe885, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe885, _kFontFamP7);
   static const IconData ic_fluent_wifi_protected_filled =
-      IconData(0xe886, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe886, _kFontFamP7);
   static const IconData ic_fluent_wifi_protected_regular =
-      IconData(0xe887, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe887, _kFontFamP7);
   static const IconData ic_fluent_window_dev_tools_filled =
-      IconData(0xe888, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe888, _kFontFamP7);
   static const IconData ic_fluent_window_dev_tools_regular =
-      IconData(0xe889, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe889, _kFontFamP7);
   static const IconData ic_fluent_window_filled =
-      IconData(0xe88a, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88a, _kFontFamP7);
   static const IconData ic_fluent_window_new_filled =
-      IconData(0xe88b, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88b, _kFontFamP7);
   static const IconData ic_fluent_window_new_regular =
-      IconData(0xe88c, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88c, _kFontFamP7);
   static const IconData ic_fluent_window_regular =
-      IconData(0xe88d, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88d, _kFontFamP7);
   static const IconData ic_fluent_window_shield_filled =
-      IconData(0xe88e, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88e, _kFontFamP7);
   static const IconData ic_fluent_window_shield_regular =
-      IconData(0xe88f, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe88f, _kFontFamP7);
   static const IconData ic_fluent_xbox_console_filled =
-      IconData(0xe890, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe890, _kFontFamP7);
   static const IconData ic_fluent_xbox_console_regular =
-      IconData(0xe891, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe891, _kFontFamP7);
   static const IconData ic_fluent_zoom_in_filled =
-      IconData(0xe892, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe892, _kFontFamP7);
   static const IconData ic_fluent_zoom_in_regular =
-      IconData(0xe893, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe893, _kFontFamP7);
   static const IconData ic_fluent_zoom_out_filled =
-      IconData(0xe894, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe894, _kFontFamP7);
   static const IconData ic_fluent_zoom_out_regular =
-      IconData(0xe895, fontFamily: _kFontFamP7, fontPackage: _kFontPkg);
+      FluentUIIconData(0xe895, _kFontFamP7);
   /*Part 7*/
 
 }

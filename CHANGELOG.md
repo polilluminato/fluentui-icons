@@ -1,3 +1,7 @@
+## 0.2.0
+
+- Fixed a bug in the icon display
+
 ## 0.1.0
 
 - Added all Fluent UI Icons

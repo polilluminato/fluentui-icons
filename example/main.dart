@@ -1,4 +1,3 @@
- 
 import 'package:flutter/material.dart';
 import '../lib/fluentui_icons.dart';
 
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
@@ -31,7 +30,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,14 +40,29 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Icon(FluentSystemIcons.ic_fluent_autocorrect_regular,size: 48,),
-            Icon(FluentSystemIcons.ic_fluent_battery_6_regular,size: 44,),
-            Icon(FluentSystemIcons.ic_fluent_book_formula_database_filled,size: 40,),
-            Icon(FluentSystemIcons.ic_fluent_briefcase_filled,size: 36,),
-            Icon(FluentSystemIcons.ic_fluent_calendar_month_filled,size: 36,),
+            Icon(
+              FluentSystemIcons.ic_fluent_autocorrect_regular,
+              size: 48,
+            ),
+            Icon(
+              FluentSystemIcons.ic_fluent_battery_6_regular,
+              size: 44,
+            ),
+            Icon(
+              FluentSystemIcons.ic_fluent_book_formula_database_filled,
+              size: 40,
+            ),
+            Icon(
+              FluentSystemIcons.ic_fluent_briefcase_filled,
+              size: 36,
+            ),
+            Icon(
+              FluentSystemIcons.ic_fluent_calendar_month_filled,
+              size: 36,
+            ),
           ],
         ),
-      ),// This trailing comma makes auto-formatting nicer for build methods.
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

@@ -1,3 +1,6 @@
+## 1.0.0
+
+- Opt-in null-safety
 ## 0.2.0
 
 - Fixed a bug in the icon display

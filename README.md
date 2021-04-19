@@ -14,7 +14,7 @@ To use this plugin, add `fluentui_icons` as a [dependency in your pubspec.yaml f
 
 ``` dart
 dependencies:
-  fluentui_icons: ^0.2.0
+  fluentui_icons: ^1.0.0
 ```
 
 ### Install it 
